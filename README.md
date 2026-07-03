@@ -44,8 +44,7 @@ Before you begin, ensure you have the following installed on your machine:
    JWT_SECRET=your_super_secret_jwt_key_here
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
-   *(To generate a secure JWT secret, you can run: `node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"`)*
-
+  
 3. **Frontend Setup**
    Open a new terminal window/tab:
    ```bash
@@ -53,7 +52,7 @@ Before you begin, ensure you have the following installed on your machine:
    npm install
    ```
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 You will need two terminal windows open to run the full stack application.
 
@@ -98,6 +97,3 @@ DOCVERSE AI/
     └── package.json
 ```
 
-## 📝 License
-
-This project was built as a custom DocVerse AI solution. All rights reserved.
