@@ -1,0 +1,94 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  padding: 1rem;
+}
+
+.formCard {
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.formCard h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputGroup label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.inputGroup input {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  outline: none;
+  transition: var(--transition);
+}
+
+.inputGroup input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.submitBtn:hover {
+  background: var(--color-secondary);
+}
+
+.error {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--color-error);
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.toggleText {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.toggleLink {
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.toggleLink:hover {
+  text-decoration: underline;
+}

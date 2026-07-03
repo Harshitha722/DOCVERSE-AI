@@ -1,0 +1,71 @@
+<h1>DECISIONMESH AI Architecture</h1>
+<p>To present this in your video, simply click the &quot;Preview&quot; button in VS Code (usually at the top right of the editor) to render this diagram full-size on your screen!</p>
+<pre><code class="language-mermaid">graph TD
+    %% Global Styling for larger sizes
+    classDef default font-size:16px,padding:15px,stroke-width:2px;
+    classDef frontend fill:#3b82f6,stroke:#1d4ed8,color:white;
+    classDef backend fill:#10b981,stroke:#047857,color:white;
+    classDef database fill:#f59e0b,stroke:#b45309,color:white;
+    classDef ai fill:#8b5cf6,stroke:#6d28d9,color:white;
+    classDef human fill:#ef4444,stroke:#b91c1c,color:white;
+
+    %% 1. FRONTEND LAYER
+    subgraph Client [&quot;🖥️ Client Layer (Next.js)&quot;]
+        direction TB
+        User([🧑‍💼 Business User]) --&gt; |Uploads Transcripts/CRM Data| UI[Next.js Dashboard UI]
+        UI --&gt; |POST /analyze| API_Gateway[FastAPI Backend]
+    end
+    class UI frontend;
+    class User human;
+
+    %% 2. CONTEXT &amp; ROUTING LAYER
+    subgraph Context [&quot;🧠 Context &amp; Routing Layer (FastAPI)&quot;]
+        direction TB
+        API_Gateway --&gt; |Detects Domain| Ontology[YAML Ontology Engine]
+        API_Gateway --&gt; |Embeds Text| QdrantRAG[(Qdrant Vector DB: Context)]
+        API_Gateway --&gt; |Fetches History| QdrantMemory[(Qdrant Vector DB: Memory)]
+    end
+    class API_Gateway backend;
+    class Ontology backend;
+    class QdrantRAG database;
+    class QdrantMemory database;
+
+    %% 3. AGENTIC ORCHESTRATION LAYER
+    subgraph Orchestration [&quot;🤖 Parallel Agentic Layer (Pydantic-AI)&quot;]
+        direction TB
+        Ontology --&gt; |Domain Detected| Factory[Dynamic Agent Factory]
+        Factory --&gt; |Spins up Agents| Registry[Runtime Agent Registry]
+        
+        Registry --&gt; |Async Parallel Execution| Agent1[Opportunity Agent]
+        Registry --&gt; |Async Parallel Execution| Agent2[Risk &amp; Blockers Agent]
+        Registry --&gt; |Async Parallel Execution| Agent3[Financial Agent]
+        
+        QdrantRAG -.-&gt; |Injects Facts| Agent1 &amp; Agent2 &amp; Agent3
+        QdrantMemory -.-&gt; |Injects Past Learnings| Agent1 &amp; Agent2 &amp; Agent3
+        
+        Agent1 &amp; Agent2 &amp; Agent3 &lt;--&gt; |Reasons via| Gemini((Google Gemini 1.5 Flash))
+    end
+    class Factory ai;
+    class Registry ai;
+    class Agent1 ai;
+    class Agent2 ai;
+    class Agent3 ai;
+    class Gemini ai;
+
+    %% 4. SYNTHESIS &amp; HUMAN LAYER
+    subgraph Synthesis [&quot;⚖️ Synthesis &amp; Human-in-the-Loop&quot;]
+        direction TB
+        Agent1 &amp; Agent2 &amp; Agent3 --&gt; |Returns Strict JSON| Synthesizer[Recommendation Synthesizer]
+        Synthesizer --&gt; |Drafts Report| Confidence[Confidence Engine &amp; Critique]
+        Confidence --&gt; |If Score &lt; 70%| HitL{Mandatory Human Review}
+        HitL --&gt; |Approve / Override| FinalReport[Final Decision Report]
+        
+        FinalReport --&gt; |Displays Next Best Action| UI
+        FinalReport --&gt; |Saves Outcome for Future| QdrantMemory
+    end
+    class Synthesizer backend;
+    class Confidence backend;
+    class HitL human;
+    class FinalReport backend;
+
+</code></pre>

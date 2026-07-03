@@ -1,0 +1,118 @@
+<h1>DecisionMesh AI — Master Codex Implementation Prompt</h1>
+<p>ROLE:
+You are a Staff+ engineer. Modify the REAL repository, do not generate pseudocode.
+Run the application, fix build issues, and verify functionality.</p>
+<p>GOAL:
+Transform the existing hackathon project into DecisionMesh AI:
+&quot;The Enterprise Decision Intelligence Platform&quot;</p>
+<p>MANDATORY FEATURES:</p>
+<ol>
+<li>Full rebranding to DecisionMesh AI.</li>
+<li>Planner-based agent orchestration.</li>
+<li>Human-in-the-loop governance.</li>
+<li>Memory optimization and learning.</li>
+<li>Explainable recommendations.</li>
+<li>Confidence engine.</li>
+<li>Multi-tenancy.</li>
+<li>Analytics dashboard.</li>
+<li>Audit logging.</li>
+<li>RBAC.</li>
+<li>Live CRM integration via provider adapters.</li>
+<li>Final ZIP generation and CRUD report.</li>
+</ol>
+<p>PHASE 0: REPOSITORY DISCOVERY</p>
+<ul>
+<li>Inspect backend/frontend.</li>
+<li>Identify frameworks and versions.</li>
+<li>Produce implementation plan.</li>
+<li>Then execute changes.</li>
+</ul>
+<p>PHASE 1: BRANDING
+Replace ActionIQ with DecisionMesh AI everywhere.</p>
+<p>PHASE 2: HITL
+Support:
+approve, reject, escalate, delegate,
+request_information, override, archive.</p>
+<p>Persist immutable review history.</p>
+<p>PHASE 3: AUDIT
+Create auditService.js and auditRoutes.js.
+Track every recommendation and reviewer action.</p>
+<p>PHASE 4: RBAC
+Roles:
+admin, manager, reviewer, operator, viewer.</p>
+<p>PHASE 5: MEMORY
+Implement:</p>
+<ul>
+<li>async I/O</li>
+<li>LRU cache</li>
+<li>TTL cleanup</li>
+<li>rejection memory</li>
+<li>pattern memory</li>
+<li>customer indexing O(1)</li>
+</ul>
+<p>PHASE 6: PATTERN AGENT
+Learn acceptance/rejection behavior.</p>
+<p>PHASE 7: CONFIDENCE ENGINE
+confidence =
+0.35<em>memory +
+0.25</em>evidence +
+0.20<em>signals +
+0.20</em>acceptance_rate</p>
+<p>PHASE 8: EXPLAINABILITY
+Every recommendation must include:</p>
+<ul>
+<li>evidence</li>
+<li>reasoning</li>
+<li>memory signals</li>
+<li>confidence</li>
+</ul>
+<p>PHASE 9: MULTI-TENANCY
+Add tenantId and workspaceId across all entities.</p>
+<p>PHASE 10: LIVE CRM
+Implement provider architecture:</p>
+<p>CRMProvider</p>
+<ul>
+<li>SalesforceAdapter</li>
+<li>HubSpotAdapter</li>
+<li>ZohoAdapter</li>
+<li>MockCRMAdapter</li>
+</ul>
+<p>Use MockCRM by default.
+Environment-driven switching.</p>
+<p>Endpoints:
+GET /crm/customer/:id
+GET /crm/opportunities/:id
+GET /crm/activities/:id</p>
+<p>PHASE 11: ANALYTICS
+Metrics:</p>
+<ul>
+<li>approval rate</li>
+<li>rejection rate</li>
+<li>confidence</li>
+<li>reviewer performance</li>
+<li>memory growth</li>
+<li>discovered patterns</li>
+</ul>
+<p>PHASE 12: MEMORY EXPLORER
+Search/filter memories by customer and tenant.</p>
+<p>PHASE 13: API HARDENING
+Timeouts, retries, validation, centralized errors.</p>
+<p>PHASE 14: PERFORMANCE
+Remove dead code.
+Reduce memory footprint.
+Optimize startup time.</p>
+<p>PHASE 15: VALIDATION
+Run frontend.
+Run backend.
+Fix all errors.</p>
+<p>DELIVERABLES:</p>
+<ol>
+<li>Final ZIP.</li>
+<li>CRUD report.</li>
+<li>API documentation.</li>
+<li>Git commands:</li>
+</ol>
+<p>git add .
+git commit -m &quot;feat: DecisionMesh AI enterprise platform&quot;
+git push origin main</p>
+<p>Do not stop until every phase is implemented and verified.</p>

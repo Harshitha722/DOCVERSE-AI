@@ -1,0 +1,3899 @@
+<h1>🎯 Complete Interview Preparation Guide</h1>
+<h2>Custom Software Engineer — SAP ABAP Development for HANA</h2>
+<blockquote>
+<p>[!IMPORTANT]
+This guide is structured in the exact order interviews typically flow. Study it sequentially — from self-introduction through technical deep-dives to HR closure. Every question includes a detailed model answer.</p>
+</blockquote>
+<hr>
+<h1>📋 TABLE OF CONTENTS</h1>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Section</th>
+<th>Focus Area</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="#part-1--self-introduction--icebreaker-questions">Self-Introduction &amp; Icebreakers</a></td>
+<td>Tell me about yourself, Why this role, Why this company</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="#part-2--behavioral--situational-questions">Behavioral &amp; Situational Questions</a></td>
+<td>Teamwork, problem-solving, challenges</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="#part-3--sap-fundamentals">SAP Fundamentals</a></td>
+<td>SAP ecosystem, modules, architecture</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="#part-4--abap-core-programming">ABAP Core Programming</a></td>
+<td>Data types, internal tables, modularization, reports</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="#part-5--abap-object-oriented-programming">ABAP Object-Oriented Programming</a></td>
+<td>Classes, interfaces, inheritance, polymorphism</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="#part-6--sap-abap-for-hana--must-have-skill">SAP ABAP for HANA (MUST HAVE)</a></td>
+<td>CDS Views, AMDP, Code Pushdown, Eclipse ADT</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="#part-7--advanced-abap-concepts">Advanced ABAP Concepts</a></td>
+<td>BAPIs, BADIs, User Exits, Enhancements, IDocs</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="#part-8--sap-fiori--ui5-good-to-have">SAP Fiori &amp; UI5 (Good to Have)</a></td>
+<td>Fiori apps, SAPUI5, OData services</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="#part-9--database-management--data-modeling">Database &amp; Data Modeling</a></td>
+<td>Tables, relationships, normalization, HANA modeling</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="#part-10--agile-development-methodology">Agile Methodology</a></td>
+<td>Scrum, sprints, ceremonies</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="#part-11--version-control--git">Version Control — Git</a></td>
+<td>Commands, branching, workflows</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="#part-12--hr-round-questions">HR Round Questions</a></td>
+<td>Salary, relocation, career goals</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="#part-13--quick-revision-cheat-sheet">Quick Revision Cheat Sheet</a></td>
+<td>Last-minute revision points</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="#part-14--interview-day-strategy--tips">Interview Day Tips</a></td>
+<td>Do's, Don'ts, body language</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1>PART 1 — Self-Introduction &amp; Icebreaker Questions</h1>
+<hr>
+<h2>Q1. Tell me about yourself.</h2>
+<blockquote>
+<p>[!TIP]
+Use the <strong>Present → Past → Future</strong> framework. Keep it 90–120 seconds. Tailor it to the SAP ABAP role.</p>
+</blockquote>
+<p><strong>Model Answer (For Freshers / 0–2 Years Experience):</strong></p>
+<blockquote>
+<p>&quot;Good morning/afternoon. Thank you for this opportunity. My name is [Your Name], and I'm a [Your Degree, e.g., B.Tech in Computer Science] graduate from [Your University], completed in [Year].</p>
+<p>During my academic journey, I developed a strong foundation in programming with languages like C, Java, and SQL. I also gained hands-on exposure to SAP ABAP through [training program / self-learning / internship / academic project]. Specifically, I've worked on [mention any project — e.g., 'building ALV reports,' 'creating custom transactions,' or 'working with CDS views in an SAP HANA environment'].</p>
+<p>What excites me about this role is the opportunity to work on SAP ABAP Development for HANA, which I believe is the future of enterprise application development. I'm passionate about writing clean, optimized code and I'm eager to contribute to building scalable solutions that drive real business value.</p>
+<p>I'm a quick learner, a collaborative team player, and I'm looking forward to growing my skills in a challenging and innovative environment like yours.&quot;</p>
+</blockquote>
+<p><strong>If you have some experience (6 months – 2 years):</strong></p>
+<blockquote>
+<p>&quot;Good morning. I'm [Your Name], a Custom Software Engineer with [X months/years] of experience in SAP ABAP development. I completed my [Degree] from [University] in [Year].</p>
+<p>In my current/previous role at [Company], I've been involved in developing custom ABAP programs, reports, enhancements, and working with SAP HANA-optimized code including CDS Views and AMDP. I've contributed to [specific project — e.g., 'migrating legacy reports to HANA-optimized code' or 'building Fiori-ready OData services'].</p>
+<p>I follow agile practices in my day-to-day work, participate actively in sprint planning and retrospectives, and use Git for version control. I'm now looking to take the next step in my career by joining a team where I can work on more complex, large-scale SAP HANA implementations.</p>
+<p>I believe this role aligns perfectly with my skills and career aspirations.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q2. Why do you want to work in this role / Why SAP ABAP?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;SAP is the backbone of enterprise operations for thousands of global companies, and ABAP is the primary language that powers SAP's business logic. With the shift to SAP S/4HANA, ABAP for HANA has become even more critical — it's not just about writing code anymore, it's about writing intelligent, high-performance code that leverages the in-memory computing power of HANA.</p>
+<p>I chose this path because I find it rewarding to build solutions that directly impact how businesses operate — from supply chain management to financial reporting. The combination of deep technical work with real business impact is what draws me to SAP ABAP development.</p>
+<p>Additionally, the ecosystem is evolving rapidly with Fiori, CDS Views, RAP (RESTful ABAP Programming), and cloud-based solutions, which means there's always something new to learn and master.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q3. Why do you want to join our company?</h2>
+<blockquote>
+<p>[!TIP]
+Research the company beforehand. If it's Accenture (which this JD strongly suggests), tailor accordingly.</p>
+</blockquote>
+<p><strong>Model Answer (for Accenture):</strong></p>
+<blockquote>
+<p>&quot;I want to join Accenture because it's a global leader in technology consulting and has one of the largest SAP practices in the world. Accenture works with Fortune 500 clients on cutting-edge SAP S/4HANA transformations, which means I'd get exposure to complex, real-world implementations from day one.</p>
+<p>I'm also impressed by Accenture's investment in employee learning and growth — platforms like the Accenture Learning Board and opportunities for certifications make it an ideal place for someone like me who is eager to continuously upskill.</p>
+<p>The collaborative culture, global exposure, and the opportunity to work with diverse, cross-functional teams across industries is exactly the environment where I see myself thriving.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q4. What are your strengths?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;My key strengths are:</p>
+<ol>
+<li>
+<p><strong>Quick Learner</strong> — I pick up new technologies and frameworks rapidly. For example, I taught myself CDS Views and AMDP through SAP documentation and hands-on practice within a few weeks.</p>
+</li>
+<li>
+<p><strong>Problem-Solving Mindset</strong> — I enjoy debugging and optimizing code. I approach problems systematically — understanding the root cause before jumping to solutions.</p>
+</li>
+<li>
+<p><strong>Team Collaboration</strong> — I communicate clearly with both technical and non-technical stakeholders, which helps in translating business requirements into technical specifications.</p>
+</li>
+<li>
+<p><strong>Attention to Detail</strong> — In ABAP development, small errors can have large impacts on business processes. I'm meticulous about code quality, testing, and documentation.&quot;</p>
+</li>
+</ol>
+</blockquote>
+<hr>
+<h2>Q5. What are your weaknesses?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;One area I'm actively working on is saying 'no' to additional tasks when my plate is already full. I tend to take on more work because I want to help the team, but I've realized that this can sometimes affect the quality of my deliverables. I've started using task management tools and prioritization frameworks to better manage my workload.</p>
+<p>Another area is public speaking — while I'm comfortable in small team discussions, I'm working on becoming more confident in larger group presentations. I've been practicing by volunteering to present in team meetings.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q6. Where do you see yourself in 5 years?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;In 5 years, I see myself as a senior SAP ABAP consultant with deep expertise in SAP S/4HANA, CDS Views, RAP, and Fiori. I want to be someone who can independently architect custom solutions and mentor junior developers.</p>
+<p>I also aspire to earn SAP certifications — particularly in ABAP for HANA and S/4HANA development — and eventually take on a lead role where I'm driving technical decisions and contributing to solution design for clients.</p>
+<p>I believe this role is the perfect launchpad for that journey.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q7. Walk me through your resume / Tell me about your projects.</h2>
+<blockquote>
+<p>[!TIP]
+Prepare 2–3 projects. For each, follow the <strong>STAR</strong> format: <strong>S</strong>ituation, <strong>T</strong>ask, <strong>A</strong>ction, <strong>R</strong>esult.</p>
+</blockquote>
+<p><strong>Sample Project Description:</strong></p>
+<blockquote>
+<p><strong>Project: Sales Order Reporting Optimization</strong></p>
+<ul>
+<li><strong>Situation:</strong> The client's existing sales order reports were running on classical ABAP with SELECT statements that took 15+ minutes to execute on large datasets.</li>
+<li><strong>Task:</strong> My task was to optimize these reports for SAP HANA to reduce execution time and improve user experience.</li>
+<li><strong>Action:</strong> I rewrote the data access layer using CDS Views with associations and annotations, replaced nested SELECT loops with JOINs and pushed computation to the database layer. I also implemented ALV output with interactive features.</li>
+<li><strong>Result:</strong> Report execution time dropped from 15 minutes to under 30 seconds, and the client was able to access real-time sales data for better decision-making.</li>
+</ul>
+</blockquote>
+<hr>
+<h1>PART 2 — Behavioral &amp; Situational Questions</h1>
+<hr>
+<h2>Q8. Tell me about a time you faced a challenge and how you overcame it.</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;During a project, I was tasked with debugging a custom ABAP program that was causing data inconsistencies in the client's inventory management system. The issue was intermittent, making it difficult to reproduce.</p>
+<p>I approached it systematically — first, I analyzed the program logic line by line using the ABAP Debugger. Then, I cross-referenced the data with the database tables using SE16N. I discovered that a missing COMMIT WORK statement in a parallel processing scenario was causing the data loss.</p>
+<p>I fixed the issue by implementing proper commit handling and added error logging using application logs (SLG1). I also documented the fix and shared it with the team to prevent similar issues in the future.</p>
+<p>This experience taught me the importance of thorough debugging and the value of systematic problem-solving.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q9. How do you handle working under pressure or tight deadlines?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;I handle pressure by breaking the work down into smaller, manageable tasks and prioritizing based on impact. I communicate proactively with my team lead if I foresee any delays, so we can adjust timelines or redistribute work.</p>
+<p>In one instance, we had a critical go-live with a tight 2-week deadline. I created a daily task checklist, focused on the high-priority items first, and collaborated closely with the functional team to ensure requirements were clear. We delivered on time without compromising quality.</p>
+<p>I've learned that staying calm, planning carefully, and communicating openly are the keys to working well under pressure.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q10. Describe a situation where you worked in a team.</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;In my most recent project, I worked in a team of 5 developers on an SAP S/4HANA migration. My role was to develop custom CDS Views and AMDP procedures for the finance module.</p>
+<p>We followed agile methodology with 2-week sprints. I participated actively in daily standups, sprint planning, and retrospectives. When a team member was struggling with a complex BAdI implementation, I offered to pair-program with them, and together we resolved the issue in a day.</p>
+<p>The project was delivered successfully on schedule, and our team received positive feedback from the client for the quality of our deliverables.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q11. How do you handle disagreements with team members?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;I believe healthy disagreements lead to better solutions. When I disagree with a team member, I focus on the technical merits rather than personal opinions. I present my reasoning with data or examples, and I'm always open to being proven wrong.</p>
+<p>In one instance, a colleague and I disagreed on whether to use a CDS View or an AMDP for a complex calculation. I suggested we prototype both approaches and compare performance metrics. The data showed that AMDP was more efficient for that specific use case, and we went with that approach. It was a productive discussion that led to a better solution.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q12. Give an example of when you had to learn something quickly.</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;When I first started working on an SAP HANA project, I had limited experience with CDS Views and Eclipse ADT. I needed to ramp up quickly because the project timeline was tight.</p>
+<p>I dedicated my evenings and weekends to studying — I went through SAP's official documentation, completed tutorials on the SAP Learning Hub, and practiced creating CDS Views in a sandbox system. Within two weeks, I was comfortable enough to start contributing to the project.</p>
+<p>I also reached out to senior developers on the team for guidance on best practices, which helped me avoid common pitfalls. This experience reinforced my belief that with the right motivation and resources, I can learn any technology quickly.&quot;</p>
+</blockquote>
+<hr>
+<h1>PART 3 — SAP Fundamentals</h1>
+<hr>
+<h2>Q13. What is SAP?</h2>
+<p><strong>Answer:</strong></p>
+<p>SAP stands for <strong>Systems, Applications, and Products in Data Processing</strong> (German: <em>Systeme, Anwendungen und Produkte in der Datenverarbeitung</em>). It is a German multinational software corporation founded in 1972 by five former IBM engineers.</p>
+<p><strong>Key points:</strong></p>
+<ul>
+<li>SAP is the world's largest enterprise resource planning (ERP) software company</li>
+<li>It integrates various business functions — Finance, Sales, HR, Supply Chain, Manufacturing — into a single unified system</li>
+<li>SAP's ERP system provides <strong>real-time data processing</strong> so that all departments work with the same, up-to-date information</li>
+<li>Latest version: <strong>SAP S/4HANA</strong> (runs exclusively on SAP HANA database)</li>
+<li>SAP serves over 400,000 customers in 180+ countries</li>
+</ul>
+<p><strong>SAP Product Evolution:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Era</th>
+<th>Product</th>
+<th>Database</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1992</td>
+<td>SAP R/3</td>
+<td>Any RDBMS (Oracle, DB2, SQL Server)</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>SAP ECC 6.0</td>
+<td>Any RDBMS</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>SAP HANA (database)</td>
+<td>In-memory</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>SAP S/4HANA</td>
+<td>SAP HANA only</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q14. What is SAP HANA?</h2>
+<p><strong>Answer:</strong></p>
+<p>SAP HANA stands for <strong>High-performance ANalytic Appliance</strong>. It is an <strong>in-memory, column-oriented, relational database management system</strong> developed by SAP.</p>
+<p><strong>Key characteristics:</strong></p>
+<ol>
+<li><strong>In-Memory Computing:</strong> Data is stored in RAM (main memory) instead of traditional disk storage, enabling extremely fast data retrieval and processing</li>
+<li><strong>Column-Oriented Storage:</strong> Data is stored column-wise rather than row-wise, which dramatically speeds up analytical queries (aggregations, sums, averages)</li>
+<li><strong>Row-Oriented Storage:</strong> Also supports row-based storage for transactional (OLTP) operations</li>
+<li><strong>Combined OLTP + OLAP:</strong> Eliminates the need for separate transactional and analytical systems</li>
+<li><strong>Data Compression:</strong> Advanced compression algorithms reduce memory footprint by up to 10x</li>
+<li><strong>Parallel Processing:</strong> Leverages multi-core CPUs for parallel query execution</li>
+</ol>
+<p><strong>Why HANA matters for ABAP developers:</strong></p>
+<ul>
+<li>Traditional ABAP code that processes data in application server loops can now <strong>push computation to the database</strong></li>
+<li>New tools: <strong>CDS Views, AMDP, Open SQL enhancements</strong></li>
+<li>Performance gains of <strong>10x to 1000x</strong> over traditional approaches</li>
+</ul>
+<hr>
+<h2>Q15. What is the difference between SAP ECC and SAP S/4HANA?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>SAP ECC</th>
+<th>SAP S/4HANA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Database</strong></td>
+<td>Any RDBMS (Oracle, DB2, etc.)</td>
+<td>SAP HANA only</td>
+</tr>
+<tr>
+<td><strong>Architecture</strong></td>
+<td>Traditional 3-tier</td>
+<td>Simplified data model</td>
+</tr>
+<tr>
+<td><strong>UI</strong></td>
+<td>SAP GUI</td>
+<td>SAP Fiori (browser-based)</td>
+</tr>
+<tr>
+<td><strong>Data Model</strong></td>
+<td>Aggregate tables, index tables</td>
+<td>Simplified (no aggregate tables needed)</td>
+</tr>
+<tr>
+<td><strong>Analytics</strong></td>
+<td>Separate BW system needed</td>
+<td>Embedded analytics</td>
+</tr>
+<tr>
+<td><strong>Deployment</strong></td>
+<td>On-premise only</td>
+<td>On-premise, Cloud, or Hybrid</td>
+</tr>
+<tr>
+<td><strong>Performance</strong></td>
+<td>Standard</td>
+<td>10x–1000x faster</td>
+</tr>
+<tr>
+<td><strong>Code Line</strong></td>
+<td>Separate industry solutions</td>
+<td>Single code line</td>
+</tr>
+<tr>
+<td><strong>Material Number</strong></td>
+<td>18 characters</td>
+<td>40 characters</td>
+</tr>
+<tr>
+<td><strong>Business Partner</strong></td>
+<td>Separate customer/vendor</td>
+<td>Unified Business Partner</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q16. What are SAP Modules? Name the key ones.</h2>
+<p><strong>Answer:</strong></p>
+<p>SAP modules are functional areas that handle specific business processes:</p>
+<p><strong>Functional Modules:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Full Name</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FI</strong></td>
+<td>Financial Accounting</td>
+<td>General ledger, accounts payable/receivable</td>
+</tr>
+<tr>
+<td><strong>CO</strong></td>
+<td>Controlling</td>
+<td>Cost center accounting, profitability analysis</td>
+</tr>
+<tr>
+<td><strong>SD</strong></td>
+<td>Sales &amp; Distribution</td>
+<td>Sales orders, pricing, billing</td>
+</tr>
+<tr>
+<td><strong>MM</strong></td>
+<td>Materials Management</td>
+<td>Procurement, inventory management</td>
+</tr>
+<tr>
+<td><strong>PP</strong></td>
+<td>Production Planning</td>
+<td>Manufacturing, MRP</td>
+</tr>
+<tr>
+<td><strong>HR/HCM</strong></td>
+<td>Human Capital Management</td>
+<td>Payroll, personnel administration</td>
+</tr>
+<tr>
+<td><strong>QM</strong></td>
+<td>Quality Management</td>
+<td>Quality inspections, certifications</td>
+</tr>
+<tr>
+<td><strong>PM</strong></td>
+<td>Plant Maintenance</td>
+<td>Equipment maintenance, work orders</td>
+</tr>
+<tr>
+<td><strong>WM</strong></td>
+<td>Warehouse Management</td>
+<td>Warehouse operations</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Technical Modules:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ABAP</strong></td>
+<td>Custom development</td>
+</tr>
+<tr>
+<td><strong>BASIS</strong></td>
+<td>System administration</td>
+</tr>
+<tr>
+<td><strong>BC</strong></td>
+<td>Basis Components</td>
+</tr>
+<tr>
+<td><strong>PI/PO</strong></td>
+<td>Process Integration/Orchestration</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q17. Explain SAP's 3-tier architecture.</h2>
+<p><strong>Answer:</strong></p>
+<p>SAP follows a <strong>3-tier client-server architecture:</strong></p>
+<pre><code>┌─────────────────────┐
+│  PRESENTATION TIER  │  ← SAP GUI / Fiori Launchpad (User Interface)
+│  (Client Layer)     │
+└────────┬────────────┘
+         │
+┌────────▼────────────┐
+│  APPLICATION TIER   │  ← ABAP Application Server (Business Logic)
+│  (App Server)       │  ← Contains: Dispatcher, Work Processes, 
+│                     │     Memory Buffers, Enqueue Server
+└────────┬────────────┘
+         │
+┌────────▼────────────┐
+│    DATABASE TIER    │  ← SAP HANA / Oracle / DB2 (Data Storage)
+│  (Database Server)  │
+└─────────────────────┘
+</code></pre>
+<p><strong>Tier Details:</strong></p>
+<ol>
+<li>
+<p><strong>Presentation Layer:</strong> The user interface — SAP GUI (desktop), SAP Fiori (web browser), or mobile apps. It sends user requests to the application server and displays results.</p>
+</li>
+<li>
+<p><strong>Application Layer:</strong> The core processing engine. Contains:</p>
+<ul>
+<li><strong>Dispatcher:</strong> Distributes incoming requests to available work processes</li>
+<li><strong>Work Processes:</strong> Execute ABAP programs (Dialog, Background, Update, Enqueue, Spool)</li>
+<li><strong>Gateway:</strong> Handles RFC communication</li>
+<li><strong>Message Server:</strong> Load balancing across multiple app servers</li>
+</ul>
+</li>
+<li>
+<p><strong>Database Layer:</strong> Stores all data — master data, transaction data, repository objects (ABAP programs), and customization data.</p>
+</li>
+</ol>
+<hr>
+<h2>Q18. What are SAP Transaction Codes? Name important ones for ABAP developers.</h2>
+<p><strong>Answer:</strong></p>
+<p>A <strong>Transaction Code (T-Code)</strong> is a shortcut command in SAP GUI that directly navigates to a specific screen or program.</p>
+<p><strong>Essential T-Codes for ABAP Developers:</strong></p>
+<table>
+<thead>
+<tr>
+<th>T-Code</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SE38</strong></td>
+<td>ABAP Editor (create/modify programs)</td>
+</tr>
+<tr>
+<td><strong>SE80</strong></td>
+<td>Object Navigator (development workbench)</td>
+</tr>
+<tr>
+<td><strong>SE11</strong></td>
+<td>ABAP Dictionary (tables, data elements, domains)</td>
+</tr>
+<tr>
+<td><strong>SE37</strong></td>
+<td>Function Module Builder</td>
+</tr>
+<tr>
+<td><strong>SE24</strong></td>
+<td>Class Builder (OOP ABAP)</td>
+</tr>
+<tr>
+<td><strong>SE16/SE16N</strong></td>
+<td>Data Browser (view table contents)</td>
+</tr>
+<tr>
+<td><strong>SM30</strong></td>
+<td>Table Maintenance Generator</td>
+</tr>
+<tr>
+<td><strong>ST05</strong></td>
+<td>SQL Trace / Performance Trace</td>
+</tr>
+<tr>
+<td><strong>SAT (SE30)</strong></td>
+<td>Runtime Analysis</td>
+</tr>
+<tr>
+<td><strong>SM37</strong></td>
+<td>Background Job Monitor</td>
+</tr>
+<tr>
+<td><strong>SM21</strong></td>
+<td>System Log</td>
+</tr>
+<tr>
+<td><strong>SLG1</strong></td>
+<td>Application Log</td>
+</tr>
+<tr>
+<td><strong>SMARTFORMS</strong></td>
+<td>Smart Forms Designer</td>
+</tr>
+<tr>
+<td><strong>SE71</strong></td>
+<td>SAPscript Form Designer</td>
+</tr>
+<tr>
+<td><strong>SE91</strong></td>
+<td>Message Maintenance</td>
+</tr>
+<tr>
+<td><strong>SE93</strong></td>
+<td>Transaction Code Maintenance</td>
+</tr>
+<tr>
+<td><strong>STMS</strong></td>
+<td>Transport Management System</td>
+</tr>
+<tr>
+<td><strong>SE09/SE10</strong></td>
+<td>Transport Organizer</td>
+</tr>
+<tr>
+<td><strong>ST22</strong></td>
+<td>ABAP Runtime Error (dumps)</td>
+</tr>
+<tr>
+<td><strong>SICF</strong></td>
+<td>ICF Services (OData, HTTP)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1>PART 4 — ABAP Core Programming</h1>
+<hr>
+<h2>Q19. What is ABAP?</h2>
+<p><strong>Answer:</strong></p>
+<p>ABAP stands for <strong>Advanced Business Application Programming</strong>. It is SAP's proprietary programming language used to develop applications within the SAP environment.</p>
+<p><strong>Key characteristics:</strong></p>
+<ul>
+<li><strong>Event-driven language</strong> (programs respond to events like INITIALIZATION, AT SELECTION-SCREEN, START-OF-SELECTION)</li>
+<li><strong>4th Generation Language (4GL)</strong> — closer to human language than assembly/machine code</li>
+<li><strong>Runs on the SAP Application Server</strong> — not compiled to machine code but interpreted by the ABAP runtime</li>
+<li><strong>Strongly typed</strong> — variables must be declared with specific types</li>
+<li><strong>Supports both procedural and object-oriented programming</strong></li>
+<li><strong>Integrated with SAP Dictionary</strong> — data definitions are centralized</li>
+</ul>
+<p><strong>ABAP Program Types:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Executable Program</td>
+<td><code>1</code></td>
+<td>Reports (can be run directly via SE38)</td>
+</tr>
+<tr>
+<td>Module Pool</td>
+<td><code>M</code></td>
+<td>Dialog programs (screen-based)</td>
+</tr>
+<tr>
+<td>Function Group</td>
+<td><code>F</code></td>
+<td>Container for function modules</td>
+</tr>
+<tr>
+<td>Include Program</td>
+<td><code>I</code></td>
+<td>Reusable code included in other programs</td>
+</tr>
+<tr>
+<td>Class Pool</td>
+<td><code>K</code></td>
+<td>Global ABAP OO classes</td>
+</tr>
+<tr>
+<td>Interface Pool</td>
+<td><code>J</code></td>
+<td>Global interfaces</td>
+</tr>
+<tr>
+<td>Subroutine Pool</td>
+<td><code>S</code></td>
+<td>Container for subroutines</td>
+</tr>
+<tr>
+<td>Type Pool</td>
+<td><code>T</code></td>
+<td>Global type definitions</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q20. What are the different data types in ABAP?</h2>
+<p><strong>Answer:</strong></p>
+<p>ABAP has several categories of data types:</p>
+<h3>1. Elementary (Predefined) Types</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Default Length</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>C</code></td>
+<td>Character (text)</td>
+<td>1</td>
+<td><code>DATA lv_name TYPE c LENGTH 20.</code></td>
+</tr>
+<tr>
+<td><code>N</code></td>
+<td>Numeric text</td>
+<td>1</td>
+<td><code>DATA lv_num TYPE n LENGTH 10.</code></td>
+</tr>
+<tr>
+<td><code>D</code></td>
+<td>Date (YYYYMMDD)</td>
+<td>8</td>
+<td><code>DATA lv_date TYPE d.</code></td>
+</tr>
+<tr>
+<td><code>T</code></td>
+<td>Time (HHMMSS)</td>
+<td>6</td>
+<td><code>DATA lv_time TYPE t.</code></td>
+</tr>
+<tr>
+<td><code>I</code></td>
+<td>Integer</td>
+<td>4 bytes</td>
+<td><code>DATA lv_count TYPE i.</code></td>
+</tr>
+<tr>
+<td><code>F</code></td>
+<td>Floating point</td>
+<td>8 bytes</td>
+<td><code>DATA lv_float TYPE f.</code></td>
+</tr>
+<tr>
+<td><code>P</code></td>
+<td>Packed decimal</td>
+<td>8 bytes</td>
+<td><code>DATA lv_amount TYPE p DECIMALS 2.</code></td>
+</tr>
+<tr>
+<td><code>X</code></td>
+<td>Hexadecimal</td>
+<td>1</td>
+<td><code>DATA lv_hex TYPE x LENGTH 4.</code></td>
+</tr>
+<tr>
+<td><code>STRING</code></td>
+<td>Variable-length string</td>
+<td>Variable</td>
+<td><code>DATA lv_text TYPE string.</code></td>
+</tr>
+<tr>
+<td><code>XSTRING</code></td>
+<td>Variable-length byte</td>
+<td>Variable</td>
+<td><code>DATA lv_bytes TYPE xstring.</code></td>
+</tr>
+</tbody>
+</table>
+<h3>2. Complex Types</h3>
+<ul>
+<li><strong>Structures:</strong> Combination of different data types (like a row)<pre><code class="language-abap">TYPES: BEGIN OF ty_employee,
+         empid   TYPE i,
+         name    TYPE string,
+         salary  TYPE p DECIMALS 2,
+       END OF ty_employee.
+</code></pre>
+</li>
+<li><strong>Internal Tables:</strong> Dynamic arrays of structures<pre><code class="language-abap">DATA lt_employees TYPE TABLE OF ty_employee.
+</code></pre>
+</li>
+</ul>
+<h3>3. Reference Types</h3>
+<ul>
+<li>Data references: <code>DATA lr_data TYPE REF TO data.</code></li>
+<li>Object references: <code>DATA lr_obj TYPE REF TO cl_my_class.</code></li>
+</ul>
+<h3>4. ABAP Dictionary Types (Built-in)</h3>
+<p>These are globally defined in the Data Dictionary (SE11):</p>
+<ul>
+<li><strong>Data Elements:</strong> Semantic types (e.g., <code>MATNR</code> for material number, <code>BUKRS</code> for company code)</li>
+<li><strong>Domains:</strong> Technical attributes (type, length, value range)</li>
+<li><strong>Table Types:</strong> Define structure of internal tables</li>
+<li><strong>Structures:</strong> Global structure definitions</li>
+</ul>
+<hr>
+<h2>Q21. What are Internal Tables in ABAP? Explain types.</h2>
+<p><strong>Answer:</strong></p>
+<p>An <strong>internal table</strong> is a temporary table that exists in the program's memory during runtime. It's the primary data structure in ABAP for processing collections of data.</p>
+<h3>Types of Internal Tables</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Access</th>
+<th>Duplicate Keys</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>STANDARD</strong></td>
+<td>Index + Linear search</td>
+<td>Allowed</td>
+<td>General purpose, most common</td>
+</tr>
+<tr>
+<td><strong>SORTED</strong></td>
+<td>Index + Binary search</td>
+<td>Depends on UNIQUE/NON-UNIQUE</td>
+<td>Pre-sorted data, frequent reads</td>
+</tr>
+<tr>
+<td><strong>HASHED</strong></td>
+<td>Hash algorithm</td>
+<td>Not allowed (UNIQUE only)</td>
+<td>Large datasets, key-based access</td>
+</tr>
+</tbody>
+</table>
+<h3>Declaration Examples</h3>
+<pre><code class="language-abap">&quot; Standard Table
+DATA lt_standard TYPE STANDARD TABLE OF mara WITH DEFAULT KEY.
+
+&quot; Sorted Table
+DATA lt_sorted TYPE SORTED TABLE OF mara WITH UNIQUE KEY matnr.
+
+&quot; Hashed Table
+DATA lt_hashed TYPE HASHED TABLE OF mara WITH UNIQUE KEY matnr.
+</code></pre>
+<h3>Key Operations on Internal Tables</h3>
+<pre><code class="language-abap">&quot; 1. APPEND — Add row to the end (Standard tables)
+APPEND ls_row TO lt_table.
+
+&quot; 2. INSERT — Add row at specific position or sorted position
+INSERT ls_row INTO TABLE lt_table.
+
+&quot; 3. READ TABLE — Read a single row
+READ TABLE lt_table INTO ls_row WITH KEY matnr = '100'.
+&quot; Modern syntax:
+ls_row = lt_table[ matnr = '100' ].
+
+&quot; 4. MODIFY — Update a row
+MODIFY lt_table FROM ls_row INDEX 3.
+
+&quot; 5. DELETE — Remove a row
+DELETE lt_table WHERE matnr = '100'.
+
+&quot; 6. LOOP — Iterate over rows
+LOOP AT lt_table INTO ls_row.
+  WRITE: / ls_row-matnr, ls_row-maktx.
+ENDLOOP.
+
+&quot; 7. SORT
+SORT lt_table BY matnr ASCENDING.
+
+&quot; 8. CLEAR vs REFRESH vs FREE
+CLEAR lt_table.    &quot; Clears content, keeps memory allocated
+REFRESH lt_table.  &quot; Same as CLEAR for internal tables
+FREE lt_table.     &quot; Clears content AND releases memory
+</code></pre>
+<h3>Header Lines (Obsolete but may be asked)</h3>
+<pre><code class="language-abap">&quot; Old syntax with header line (avoid in new code)
+DATA lt_table TYPE TABLE OF mara WITH HEADER LINE.
+&quot; The table name doubles as a work area — causes confusion
+</code></pre>
+<blockquote>
+<p>[!WARNING]
+Internal tables with header lines are <strong>obsolete</strong> in modern ABAP. Always use explicit work areas.</p>
+</blockquote>
+<hr>
+<h2>Q22. What is the difference between CLEAR, REFRESH, and FREE?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Statement</th>
+<th>Effect on Internal Table</th>
+<th>Effect on Simple Variable</th>
+<th>Memory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CLEAR</code></td>
+<td>Deletes all rows</td>
+<td>Resets to initial value</td>
+<td>Retained</td>
+</tr>
+<tr>
+<td><code>REFRESH</code></td>
+<td>Deletes all rows</td>
+<td>N/A (only for tables)</td>
+<td>Retained</td>
+</tr>
+<tr>
+<td><code>FREE</code></td>
+<td>Deletes all rows</td>
+<td>Resets to initial value</td>
+<td>Released</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Use <strong>CLEAR</strong> for work areas and variables</li>
+<li>Use <strong>FREE</strong> when you're done with a large internal table and want to reclaim memory</li>
+<li><strong>REFRESH</strong> is essentially the same as CLEAR for internal tables</li>
+</ul>
+<hr>
+<h2>Q23. What are the different types of ABAP Reports?</h2>
+<p><strong>Answer:</strong></p>
+<h3>1. Classical Reports</h3>
+<ul>
+<li>Simple list output using <code>WRITE</code> statements</li>
+<li>Linear, non-interactive</li>
+<li>Example: Material list, vendor list</li>
+</ul>
+<h3>2. Interactive Reports</h3>
+<ul>
+<li>Allow drill-down from one list to another</li>
+<li>Use events: <code>AT LINE-SELECTION</code>, <code>AT USER-COMMAND</code></li>
+<li>Up to 20 secondary lists (list levels 0–20)</li>
+<li>Use <code>HIDE</code> to store data for drill-down</li>
+</ul>
+<h3>3. ALV Reports (ABAP List Viewer)</h3>
+<ul>
+<li>Grid-based, professional-looking reports</li>
+<li>Built-in features: sorting, filtering, totals, export to Excel</li>
+<li>Three types:
+<ul>
+<li><strong>ALV Grid (CL_GUI_ALV_GRID)</strong> — OOP-based, embedded in screens</li>
+<li><strong>ALV List (REUSE_ALV_LIST_DISPLAY)</strong> — Function module based, classic list</li>
+<li><strong>ALV Grid FM (REUSE_ALV_GRID_DISPLAY)</strong> — Function module based, grid display</li>
+<li><strong>SALV (CL_SALV_TABLE)</strong> — Modern, simplified ALV framework</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-abap">&quot; Simple ALV using SALV
+DATA: lo_alv TYPE REF TO cl_salv_table.
+
+cl_salv_table=&gt;factory(
+  IMPORTING r_salv_table = lo_alv
+  CHANGING  t_table      = lt_data ).
+
+lo_alv-&gt;display( ).
+</code></pre>
+<hr>
+<h2>Q24. What is a SELECT statement in ABAP? Explain Open SQL.</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Open SQL</strong> is SAP's database-independent SQL dialect used within ABAP programs. The ABAP runtime translates Open SQL to the native SQL of the underlying database.</p>
+<h3>Basic SELECT Syntax</h3>
+<pre><code class="language-abap">&quot; Select single record
+SELECT SINGLE matnr, maktx
+  FROM mara
+  INTO @DATA(ls_material)
+  WHERE matnr = '000000000000100'.
+
+&quot; Select multiple records into internal table
+SELECT matnr, maktx, mtart, matkl
+  FROM mara
+  INTO TABLE @DATA(lt_materials)
+  WHERE mtart = 'FERT'.
+
+&quot; Select with JOIN
+SELECT a~matnr, b~maktx, a~mtart
+  FROM mara AS a
+  INNER JOIN makt AS b ON a~matnr = b~matnr
+  INTO TABLE @DATA(lt_result)
+  WHERE b~spras = @sy-langu.
+
+&quot; Select with aggregate functions
+SELECT mtart, COUNT(*) AS count
+  FROM mara
+  INTO TABLE @DATA(lt_counts)
+  GROUP BY mtart.
+</code></pre>
+<h3>New Open SQL Features (7.40+) — Important for HANA</h3>
+<pre><code class="language-abap">&quot; Inline declarations with @DATA
+SELECT * FROM mara INTO TABLE @DATA(lt_mara).
+
+&quot; String expressions
+SELECT matnr, 
+       CONCAT( matnr, maktx ) AS combined
+  FROM mara INTO TABLE @DATA(lt_result).
+
+&quot; CASE expressions
+SELECT matnr,
+       CASE mtart
+         WHEN 'FERT' THEN 'Finished'
+         WHEN 'HALB' THEN 'Semi-Finished'
+         ELSE 'Other'
+       END AS material_type
+  FROM mara INTO TABLE @DATA(lt_result).
+
+&quot; Arithmetic expressions
+SELECT matnr, 
+       netpr * menge AS total_value
+  FROM ekpo INTO TABLE @DATA(lt_result).
+
+&quot; COALESCE, SUBSTRING, etc.
+SELECT matnr,
+       COALESCE( maktx, 'No Description' ) AS description
+  FROM makt INTO TABLE @DATA(lt_result).
+</code></pre>
+<hr>
+<h2>Q25. What is the difference between SELECT SINGLE and SELECT UP TO 1 ROWS?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th><code>SELECT SINGLE</code></th>
+<th><code>SELECT ... UP TO 1 ROWS</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Returns</strong></td>
+<td>First matching row</td>
+<td>First matching row after sorting</td>
+</tr>
+<tr>
+<td><strong>Full Key Required?</strong></td>
+<td>Should use full primary key</td>
+<td>Can use partial key</td>
+</tr>
+<tr>
+<td><strong>Aggregation</strong></td>
+<td>Cannot use with aggregate functions</td>
+<td>Can use with aggregate functions</td>
+</tr>
+<tr>
+<td><strong>ORDER BY</strong></td>
+<td>Not applicable</td>
+<td>Can use ORDER BY</td>
+</tr>
+<tr>
+<td><strong>Performance</strong></td>
+<td>Faster (single DB read)</td>
+<td>Slightly slower (limit applied)</td>
+</tr>
+<tr>
+<td><strong>Use When</strong></td>
+<td>You know the exact key</td>
+<td>You want the &quot;top 1&quot; result</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-abap">&quot; SELECT SINGLE — exact key lookup
+SELECT SINGLE * FROM mara INTO @DATA(ls_mara) WHERE matnr = '100'.
+
+&quot; SELECT UP TO 1 ROWS — get the latest entry
+SELECT * FROM bkpf INTO @DATA(ls_doc) 
+  UP TO 1 ROWS
+  WHERE bukrs = '1000'
+  ORDER BY budat DESCENDING.
+ENDSELECT.
+</code></pre>
+<hr>
+<h2>Q26. What is the difference between WHERE and HAVING in SQL?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>WHERE</th>
+<th>HAVING</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Applied to</strong></td>
+<td>Individual rows</td>
+<td>Grouped results</td>
+</tr>
+<tr>
+<td><strong>Used with</strong></td>
+<td>Any SELECT</td>
+<td>Only with GROUP BY</td>
+</tr>
+<tr>
+<td><strong>Timing</strong></td>
+<td>Before grouping/aggregation</td>
+<td>After grouping/aggregation</td>
+</tr>
+<tr>
+<td><strong>Aggregate Functions</strong></td>
+<td>Cannot use</td>
+<td>Can use (COUNT, SUM, etc.)</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-abap">&quot; WHERE — filter rows before grouping
+SELECT mtart, COUNT(*) AS count
+  FROM mara
+  INTO TABLE @DATA(lt_result)
+  WHERE erdat &gt; '20200101'
+  GROUP BY mtart.
+
+&quot; HAVING — filter groups after aggregation
+SELECT mtart, COUNT(*) AS count
+  FROM mara
+  INTO TABLE @DATA(lt_result)
+  GROUP BY mtart
+  HAVING COUNT(*) &gt; 100.
+</code></pre>
+<hr>
+<h2>Q27. What are Function Modules? What are their types?</h2>
+<p><strong>Answer:</strong></p>
+<p>A <strong>Function Module</strong> is a reusable piece of ABAP code that performs a specific task. Function modules are organized into <strong>Function Groups</strong> and can be called from any ABAP program.</p>
+<p><strong>Types of Function Modules:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Normal</strong></td>
+<td>Standard synchronous function module</td>
+</tr>
+<tr>
+<td><strong>RFC (Remote Function Call)</strong></td>
+<td>Can be called from external systems</td>
+</tr>
+<tr>
+<td><strong>Update</strong></td>
+<td>Runs in a separate update work process (V1 or V2)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Function Module Interface:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tab</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Import</strong></td>
+<td>Input parameters (passed TO the FM)</td>
+</tr>
+<tr>
+<td><strong>Export</strong></td>
+<td>Output parameters (returned FROM the FM)</td>
+</tr>
+<tr>
+<td><strong>Changing</strong></td>
+<td>Parameters that are both input and output</td>
+</tr>
+<tr>
+<td><strong>Tables</strong></td>
+<td>Internal table parameters (obsolete — use Changing instead)</td>
+</tr>
+<tr>
+<td><strong>Exceptions</strong></td>
+<td>Error conditions that the FM can raise</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — Calling a Function Module:</strong></p>
+<pre><code class="language-abap">CALL FUNCTION 'BAPI_MATERIAL_GETLIST'
+  EXPORTING
+    matnrselection   = lt_matnr_range
+  TABLES
+    matnrlist        = lt_materials
+    return           = lt_return.
+
+IF lt_return IS NOT INITIAL.
+  &quot; Handle errors
+ENDIF.
+</code></pre>
+<hr>
+<h2>Q28. What is a BAPI?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>BAPI</strong> stands for <strong>Business Application Programming Interface</strong>. It is a standardized function module that provides a well-defined interface to SAP business objects.</p>
+<p><strong>Key characteristics:</strong></p>
+<ul>
+<li>BAPIs are <strong>RFC-enabled</strong> function modules</li>
+<li>They follow <strong>naming conventions:</strong> <code>BAPI_&lt;object&gt;_&lt;method&gt;</code> (e.g., <code>BAPI_SALESORDER_CREATEFROMDAT2</code>)</li>
+<li>They return errors via a <strong>RETURN</strong> parameter (structure <code>BAPIRET2</code>)</li>
+<li>They <strong>do NOT commit</strong> automatically — you must call <code>BAPI_TRANSACTION_COMMIT</code> or <code>BAPI_TRANSACTION_ROLLBACK</code></li>
+<li>They are <strong>released and documented</strong> by SAP for external use</li>
+</ul>
+<p><strong>Common BAPIs:</strong></p>
+<table>
+<thead>
+<tr>
+<th>BAPI</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BAPI_SALESORDER_CREATEFROMDAT2</code></td>
+<td>Create Sales Order</td>
+</tr>
+<tr>
+<td><code>BAPI_PO_CREATE1</code></td>
+<td>Create Purchase Order</td>
+</tr>
+<tr>
+<td><code>BAPI_ACC_DOCUMENT_POST</code></td>
+<td>Post Accounting Document</td>
+</tr>
+<tr>
+<td><code>BAPI_MATERIAL_SAVEDATA</code></td>
+<td>Create/Change Material Master</td>
+</tr>
+<tr>
+<td><code>BAPI_USER_GET_DETAIL</code></td>
+<td>Get User Details</td>
+</tr>
+<tr>
+<td><code>BAPI_TRANSACTION_COMMIT</code></td>
+<td>Commit BAPI changes</td>
+</tr>
+<tr>
+<td><code>BAPI_TRANSACTION_ROLLBACK</code></td>
+<td>Rollback BAPI changes</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q29. What is the difference between BAPI_TRANSACTION_COMMIT and COMMIT WORK?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th><code>BAPI_TRANSACTION_COMMIT</code></th>
+<th><code>COMMIT WORK</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function Module (BAPI)</td>
+<td>ABAP statement</td>
+</tr>
+<tr>
+<td><strong>Use with</strong></td>
+<td>BAPIs only</td>
+<td>General ABAP programs</td>
+</tr>
+<tr>
+<td><strong>WAIT parameter</strong></td>
+<td>Optional (synchronous commit)</td>
+<td><code>AND WAIT</code> keyword</td>
+</tr>
+<tr>
+<td><strong>RFC support</strong></td>
+<td>Works across RFC calls</td>
+<td>Only local LUW</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!IMPORTANT]
+Always use <code>BAPI_TRANSACTION_COMMIT</code> after calling BAPIs. Using <code>COMMIT WORK</code> with BAPIs can cause issues in RFC scenarios.</p>
+</blockquote>
+<hr>
+<h2>Q30. What are the different types of data dictionary objects in SE11?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Domain</strong></td>
+<td>Defines technical attributes: data type, length, value range, fixed values</td>
+</tr>
+<tr>
+<td><strong>Data Element</strong></td>
+<td>Defines semantic attributes: field labels, documentation. References a domain</td>
+</tr>
+<tr>
+<td><strong>Table</strong></td>
+<td>Transparent table — corresponds to a physical database table</td>
+</tr>
+<tr>
+<td><strong>Structure</strong></td>
+<td>Like a table but no database storage — used as a type definition</td>
+</tr>
+<tr>
+<td><strong>Table Type</strong></td>
+<td>Defines the type of an internal table</td>
+</tr>
+<tr>
+<td><strong>View</strong></td>
+<td>Database view, maintenance view, projection view, help view</td>
+</tr>
+<tr>
+<td><strong>Search Help</strong></td>
+<td>F4 help / value help for input fields</td>
+</tr>
+<tr>
+<td><strong>Lock Object</strong></td>
+<td>Defines locks for concurrent data access</td>
+</tr>
+<tr>
+<td><strong>Type Group</strong></td>
+<td>Obsolete — global type definitions (replaced by CDS, etc.)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Relationship:</strong> <code>Domain → Data Element → Table Field</code></p>
+<pre><code>Domain (MATNR_D)      → Technical: CHAR(40)
+  ↓
+Data Element (MATNR)   → Labels: &quot;Material Number&quot;
+  ↓
+Table Field (MARA-MATNR) → Field in table MARA
+</code></pre>
+<hr>
+<h2>Q31. What is the difference between Transparent Tables, Pooled Tables, and Cluster Tables?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Transparent Table</th>
+<th>Pooled Table</th>
+<th>Cluster Table</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1:1 with DB?</strong></td>
+<td>Yes — one SAP table = one DB table</td>
+<td>No — many SAP tables share one DB table</td>
+<td>No — many SAP tables share one DB table</td>
+</tr>
+<tr>
+<td><strong>Name in DB</strong></td>
+<td>Same as in SAP</td>
+<td>Different (pool name)</td>
+<td>Different (cluster name)</td>
+</tr>
+<tr>
+<td><strong>Open SQL</strong></td>
+<td>Full support</td>
+<td>Limited (no JOINs)</td>
+<td>Limited (no JOINs)</td>
+</tr>
+<tr>
+<td><strong>Secondary Indexes</strong></td>
+<td>Supported</td>
+<td>Not supported</td>
+<td>Not supported</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td>MARA, BKPF</td>
+<td>Many customizing tables</td>
+<td>BSEG, KONV</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!WARNING]
+In SAP S/4HANA, <strong>pooled and cluster tables have been converted to transparent tables</strong> for HANA optimization. This is a frequently asked S/4HANA migration question!</p>
+</blockquote>
+<hr>
+<h1>PART 5 — ABAP Object-Oriented Programming</h1>
+<hr>
+<h2>Q32. What is ABAP OOP? How is it different from procedural ABAP?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Procedural ABAP</th>
+<th>Object-Oriented ABAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Paradigm</strong></td>
+<td>Sequence of function calls</td>
+<td>Objects with data + behavior</td>
+</tr>
+<tr>
+<td><strong>Code Reuse</strong></td>
+<td>Function modules, includes</td>
+<td>Classes, inheritance, interfaces</td>
+</tr>
+<tr>
+<td><strong>Data Encapsulation</strong></td>
+<td>Global data, no access control</td>
+<td>Private/Protected/Public visibility</td>
+</tr>
+<tr>
+<td><strong>Extensibility</strong></td>
+<td>Difficult to extend</td>
+<td>Inheritance, interfaces, composition</td>
+</tr>
+<tr>
+<td><strong>Polymorphism</strong></td>
+<td>Not available</td>
+<td>Method overriding, interface implementations</td>
+</tr>
+<tr>
+<td><strong>Used in</strong></td>
+<td>Legacy ABAP, simple reports</td>
+<td>Modern ABAP, Fiori backends, BOPF, RAP</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q33. Explain Classes in ABAP with an example.</h2>
+<p><strong>Answer:</strong></p>
+<p>A <strong>class</strong> is a blueprint that defines attributes (data) and methods (behavior).</p>
+<pre><code class="language-abap">&quot; Class Definition
+CLASS lcl_employee DEFINITION.
+  PUBLIC SECTION.
+    &quot; Constructor
+    METHODS constructor
+      IMPORTING iv_name   TYPE string
+                iv_salary TYPE p.
+    
+    &quot; Public methods
+    METHODS get_name RETURNING VALUE(rv_name) TYPE string.
+    METHODS get_salary RETURNING VALUE(rv_salary) TYPE p.
+    METHODS give_raise IMPORTING iv_percent TYPE p.
+    
+  PROTECTED SECTION.
+    DATA mv_name   TYPE string.
+    DATA mv_salary TYPE p DECIMALS 2.
+    
+  PRIVATE SECTION.
+    METHODS validate_salary IMPORTING iv_salary TYPE p
+                           RETURNING VALUE(rv_valid) TYPE abap_bool.
+ENDCLASS.
+
+&quot; Class Implementation
+CLASS lcl_employee IMPLEMENTATION.
+  METHOD constructor.
+    mv_name   = iv_name.
+    IF validate_salary( iv_salary ) = abap_true.
+      mv_salary = iv_salary.
+    ENDIF.
+  ENDMETHOD.
+  
+  METHOD get_name.
+    rv_name = mv_name.
+  ENDMETHOD.
+  
+  METHOD get_salary.
+    rv_salary = mv_salary.
+  ENDMETHOD.
+  
+  METHOD give_raise.
+    mv_salary = mv_salary + ( mv_salary * iv_percent / 100 ).
+  ENDMETHOD.
+  
+  METHOD validate_salary.
+    rv_valid = COND #( WHEN iv_salary &gt; 0 THEN abap_true
+                       ELSE abap_false ).
+  ENDMETHOD.
+ENDCLASS.
+
+&quot; Usage
+DATA(lo_emp) = NEW lcl_employee( iv_name = 'John' iv_salary = '50000.00' ).
+lo_emp-&gt;give_raise( 10 ).
+WRITE: / lo_emp-&gt;get_name( ), lo_emp-&gt;get_salary( ).
+</code></pre>
+<p><strong>Visibility Sections:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Access</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PUBLIC</strong></td>
+<td>Accessible from anywhere</td>
+</tr>
+<tr>
+<td><strong>PROTECTED</strong></td>
+<td>Accessible from class + subclasses</td>
+</tr>
+<tr>
+<td><strong>PRIVATE</strong></td>
+<td>Accessible only within the class</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q34. What is Inheritance in ABAP?</h2>
+<p><strong>Answer:</strong></p>
+<p>Inheritance allows a <strong>subclass</strong> to inherit attributes and methods from a <strong>superclass</strong>, promoting code reuse.</p>
+<pre><code class="language-abap">&quot; Superclass
+CLASS lcl_animal DEFINITION.
+  PUBLIC SECTION.
+    METHODS speak RETURNING VALUE(rv_sound) TYPE string.
+  PROTECTED SECTION.
+    DATA mv_name TYPE string.
+ENDCLASS.
+
+CLASS lcl_animal IMPLEMENTATION.
+  METHOD speak.
+    rv_sound = 'Generic animal sound'.
+  ENDMETHOD.
+ENDCLASS.
+
+&quot; Subclass — inherits from lcl_animal
+CLASS lcl_dog DEFINITION INHERITING FROM lcl_animal.
+  PUBLIC SECTION.
+    METHODS speak REDEFINITION.  &quot; Override parent method
+ENDCLASS.
+
+CLASS lcl_dog IMPLEMENTATION.
+  METHOD speak.
+    rv_sound = 'Woof! Woof!'.
+  ENDMETHOD.
+ENDCLASS.
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+ABAP supports <strong>single inheritance</strong> only. For multiple-inheritance-like behavior, use <strong>interfaces</strong>.</p>
+</blockquote>
+<hr>
+<h2>Q35. What are Interfaces in ABAP?</h2>
+<p><strong>Answer:</strong></p>
+<p>An <strong>interface</strong> defines a contract — a set of methods that implementing classes must provide. Interfaces enable <strong>polymorphism</strong> and decouple design from implementation.</p>
+<pre><code class="language-abap">&quot; Interface Definition
+INTERFACE lif_printable.
+  METHODS print.
+  METHODS get_format RETURNING VALUE(rv_format) TYPE string.
+ENDINTERFACE.
+
+&quot; Class implementing the interface
+CLASS lcl_report DEFINITION.
+  PUBLIC SECTION.
+    INTERFACES lif_printable.
+    ALIASES print FOR lif_printable~print.
+ENDCLASS.
+
+CLASS lcl_report IMPLEMENTATION.
+  METHOD lif_printable~print.
+    WRITE: / 'Printing report...'.
+  ENDMETHOD.
+  
+  METHOD lif_printable~get_format.
+    rv_format = 'PDF'.
+  ENDMETHOD.
+ENDCLASS.
+</code></pre>
+<p><strong>Key differences: Abstract Class vs Interface</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Abstract Class</th>
+<th>Interface</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Implementation</strong></td>
+<td>Can have implemented methods</td>
+<td>Only method signatures (no implementation)</td>
+</tr>
+<tr>
+<td><strong>Attributes</strong></td>
+<td>Can have attributes</td>
+<td>Can have constants and data (static)</td>
+</tr>
+<tr>
+<td><strong>Inheritance</strong></td>
+<td>Single inheritance</td>
+<td>Multiple interfaces possible</td>
+</tr>
+<tr>
+<td><strong>Constructor</strong></td>
+<td>Can have constructor</td>
+<td>Cannot have constructor</td>
+</tr>
+<tr>
+<td><strong>Use case</strong></td>
+<td>Partial implementation sharing</td>
+<td>Pure contract definition</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q36. What are Events in ABAP OOP?</h2>
+<p><strong>Answer:</strong></p>
+<p>Events allow an object to <strong>notify other objects</strong> that something has happened, implementing the <strong>Observer pattern</strong>.</p>
+<pre><code class="language-abap">&quot; Publisher class — raises the event
+CLASS lcl_order DEFINITION.
+  PUBLIC SECTION.
+    EVENTS order_created EXPORTING VALUE(ev_order_id) TYPE string.
+    METHODS create_order IMPORTING iv_id TYPE string.
+ENDCLASS.
+
+CLASS lcl_order IMPLEMENTATION.
+  METHOD create_order.
+    &quot; ... create order logic ...
+    RAISE EVENT order_created EXPORTING ev_order_id = iv_id.
+  ENDMETHOD.
+ENDCLASS.
+
+&quot; Subscriber class — handles the event
+CLASS lcl_logger DEFINITION.
+  PUBLIC SECTION.
+    METHODS on_order_created FOR EVENT order_created OF lcl_order
+      IMPORTING ev_order_id.
+ENDCLASS.
+
+CLASS lcl_logger IMPLEMENTATION.
+  METHOD on_order_created.
+    WRITE: / 'Order created:', ev_order_id.
+  ENDMETHOD.
+ENDCLASS.
+
+&quot; Register handler
+DATA(lo_order)  = NEW lcl_order( ).
+DATA(lo_logger) = NEW lcl_logger( ).
+SET HANDLER lo_logger-&gt;on_order_created FOR lo_order.
+lo_order-&gt;create_order( '1000001' ).
+</code></pre>
+<hr>
+<h1>PART 6 — SAP ABAP for HANA (★ MUST-HAVE SKILL ★)</h1>
+<blockquote>
+<p>[!CAUTION]
+This is the most critical section. As the JD explicitly requires &quot;Proficiency in SAP ABAP Development for HANA,&quot; expect <strong>40-60% of technical questions</strong> from this area.</p>
+</blockquote>
+<hr>
+<h2>Q37. What is &quot;ABAP for HANA&quot; or &quot;ABAP on HANA&quot;?</h2>
+<p><strong>Answer:</strong></p>
+<p>&quot;ABAP for HANA&quot; refers to the practice of <strong>writing ABAP code that is optimized to leverage the capabilities of the SAP HANA database</strong>, particularly its:</p>
+<ul>
+<li><strong>In-memory computing</strong> (data lives in RAM)</li>
+<li><strong>Column-based storage</strong> (fast aggregations)</li>
+<li><strong>Parallel processing</strong> (multi-core optimization)</li>
+<li><strong>Code-to-data paradigm</strong> (push logic to the database layer)</li>
+</ul>
+<h3>The Code Pushdown Paradigm</h3>
+<p>Traditional ABAP follows a <strong>data-to-code</strong> approach:</p>
+<pre><code>Database → [Fetch ALL data] → Application Server → [Process in ABAP loops]
+</code></pre>
+<p>ABAP for HANA follows a <strong>code-to-data</strong> approach:</p>
+<pre><code>Database → [Process data WHERE it lives using SQL/CDS/AMDP] → [Return only results]
+</code></pre>
+<p><strong>Why? Because:</strong></p>
+<ul>
+<li>HANA can process billions of rows in memory in milliseconds</li>
+<li>Network transfer between DB and App Server is slow</li>
+<li>Application server loops are sequential; HANA can parallelize</li>
+</ul>
+<h3>Key Technologies for ABAP on HANA</h3>
+<table>
+<thead>
+<tr>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CDS Views</strong></td>
+<td>Define data models declaratively with annotations</td>
+</tr>
+<tr>
+<td><strong>AMDP</strong></td>
+<td>Write HANA SQLScript inside ABAP methods</td>
+</tr>
+<tr>
+<td><strong>Open SQL Enhancements</strong></td>
+<td>New SQL expressions, JOINs, aggregations</td>
+</tr>
+<tr>
+<td><strong>Eclipse ADT</strong></td>
+<td>Modern IDE for HANA-optimized development</td>
+</tr>
+<tr>
+<td><strong>ABAP Managed Database Procedures</strong></td>
+<td>Stored procedures managed by ABAP lifecycle</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q38. What are CDS Views? Explain in detail.</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>CDS</strong> stands for <strong>Core Data Services</strong>. CDS Views are the <strong>primary data modeling tool in SAP S/4HANA</strong>. They define semantically rich data models directly on the database.</p>
+<h3>Types of CDS Views</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ABAP CDS Views</strong></td>
+<td>Defined in ABAP Dictionary, managed by ABAP lifecycle</td>
+</tr>
+<tr>
+<td><strong>HANA CDS Views</strong></td>
+<td>Defined in HANA Studio, native to HANA (less common now)</td>
+</tr>
+</tbody>
+</table>
+<h3>CDS View Syntax</h3>
+<pre><code class="language-abap">@AbapCatalog.sqlViewName: 'ZMAT_SQL'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #CHECK
+@EndUserText.label: 'Material Master CDS View'
+
+@Analytics.dataCategory: #DIMENSION
+@VDM.viewType: #BASIC
+
+define view Z_I_Material
+  as select from mara
+  association [0..*] to makt as _Text 
+    on $projection.Matnr = _Text.matnr
+{
+  key matnr                    as Matnr,
+      mtart                    as MaterialType,
+      matkl                    as MaterialGroup,
+      meins                    as BaseUnit,
+      ersda                    as CreatedDate,
+      
+      @Semantics.amount.currencyCode: 'Currency'
+      brgew                    as GrossWeight,
+      
+      // Calculated field
+      case mtart
+        when 'FERT' then 'Finished Good'
+        when 'HALB' then 'Semi-Finished'
+        when 'ROH'  then 'Raw Material'
+        else 'Other'
+      end                      as MaterialTypeText,
+      
+      // Association (exposed)
+      _Text
+}
+</code></pre>
+<h3>Key CDS Concepts</h3>
+<p><strong>1. Associations:</strong>
+Unlike JOINs, associations are <strong>lazy</strong> — the data is fetched only when accessed. This is more efficient.</p>
+<pre><code class="language-abap">association [0..*] to makt as _Text on $projection.Matnr = _Text.matnr
+</code></pre>
+<p><strong>2. Annotations:</strong>
+Metadata that controls behavior:</p>
+<table>
+<thead>
+<tr>
+<th>Annotation</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>@AbapCatalog.sqlViewName</code></td>
+<td>Physical SQL view name</td>
+</tr>
+<tr>
+<td><code>@AccessControl.authorizationCheck</code></td>
+<td>Enable authorization checks</td>
+</tr>
+<tr>
+<td><code>@Analytics.dataCategory</code></td>
+<td>Mark as DIMENSION, FACT, or CUBE</td>
+</tr>
+<tr>
+<td><code>@VDM.viewType</code></td>
+<td>Virtual Data Model layer (BASIC, COMPOSITE, CONSUMPTION)</td>
+</tr>
+<tr>
+<td><code>@UI.lineItem</code></td>
+<td>Fiori UI annotations</td>
+</tr>
+<tr>
+<td><code>@Semantics.amount</code></td>
+<td>Mark field as amount/currency</td>
+</tr>
+<tr>
+<td><code>@OData.publish</code></td>
+<td>Auto-generate OData service</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. Virtual Data Model (VDM) Layers:</strong></p>
+<pre><code>CONSUMPTION Views (C_*)  → UI/Fiori specific, OData services
+        ↑
+COMPOSITE Views (I_*)    → Combine basic views, business logic
+        ↑
+BASIC Views (I_*)        → Direct table access, one entity
+        ↑
+DATABASE TABLES          → MARA, BKPF, EKKO, etc.
+</code></pre>
+<p><strong>4. Parameters:</strong></p>
+<pre><code class="language-abap">define view Z_I_SalesOrders
+  with parameters p_bukrs : bukrs
+  as select from vbak
+{
+  key vbeln,
+      bukrs_vf
+}
+where bukrs_vf = $parameters.p_bukrs
+</code></pre>
+<p><strong>5. CDS View Extensions:</strong></p>
+<pre><code class="language-abap">@AbapCatalog.sqlViewAppendName: 'ZMAT_EXT'
+extend view Z_I_Material with Z_X_Material
+{
+  mara.labor as Laboratory
+}
+</code></pre>
+<hr>
+<h2>Q39. What is AMDP (ABAP Managed Database Procedures)?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>AMDP</strong> allows you to write <strong>SAP HANA SQLScript</strong> (or other HANA-specific code) inside ABAP class methods. The procedure is managed by the ABAP lifecycle (transport, activation, etc.) but <strong>executed directly on the HANA database</strong>.</p>
+<h3>When to use AMDP vs CDS Views</h3>
+<table>
+<thead>
+<tr>
+<th>Use CDS Views when...</th>
+<th>Use AMDP when...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple to moderate data models</td>
+<td>Complex calculations, loops, cursors</td>
+</tr>
+<tr>
+<td>Declarative logic suffices</td>
+<td>Imperative logic needed</td>
+</tr>
+<tr>
+<td>Need annotations (Fiori, Analytics)</td>
+<td>Performance-critical algorithms</td>
+</tr>
+<tr>
+<td>Need associations</td>
+<td>Need temporary tables, variables</td>
+</tr>
+<tr>
+<td>Standard reporting</td>
+<td>Complex string operations, series data</td>
+</tr>
+</tbody>
+</table>
+<h3>AMDP Syntax</h3>
+<pre><code class="language-abap">&quot; Class must implement IF_AMDP_MARKER_HDB interface
+CLASS zcl_amdp_demo DEFINITION.
+  PUBLIC SECTION.
+    INTERFACES if_amdp_marker_hdb.
+    
+    TYPES: BEGIN OF ty_result,
+             matnr TYPE matnr,
+             maktx TYPE maktx,
+             total_stock TYPE p,
+           END OF ty_result,
+           tt_result TYPE STANDARD TABLE OF ty_result.
+    
+    &quot; AMDP method declaration
+    CLASS-METHODS get_stock_summary
+      IMPORTING VALUE(iv_werks) TYPE werks_d
+      EXPORTING VALUE(et_result) TYPE tt_result.
+      
+ENDCLASS.
+
+CLASS zcl_amdp_demo IMPLEMENTATION.
+  &quot; AMDP method implementation
+  METHOD get_stock_summary
+    BY DATABASE PROCEDURE FOR HDB
+    LANGUAGE SQLSCRIPT
+    OPTIONS READ-ONLY
+    USING mara makt mard.
+    
+    et_result = SELECT 
+        a.matnr,
+        b.maktx,
+        SUM(c.labst) AS total_stock
+      FROM mara AS a
+      INNER JOIN makt AS b ON a.mandt = b.mandt AND a.matnr = b.matnr
+      INNER JOIN mard AS c ON a.mandt = c.mandt AND a.matnr = c.matnr
+      WHERE c.werks = :iv_werks
+        AND b.spras = 'E'
+      GROUP BY a.matnr, b.maktx;
+      
+  ENDMETHOD.
+ENDCLASS.
+</code></pre>
+<h3>Key AMDP Rules</h3>
+<ol>
+<li>Class must implement <code>IF_AMDP_MARKER_HDB</code></li>
+<li>Use <code>BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT</code></li>
+<li>Must list all used tables in <code>USING</code> clause</li>
+<li>Cannot use ABAP statements inside the method — only SQLScript</li>
+<li>Parameters must use VALUE( ) pass-by-value</li>
+<li>Can only be created in <strong>Eclipse ADT</strong> (not SE24)</li>
+</ol>
+<h3>AMDP Table Functions (Used in CDS Views)</h3>
+<pre><code class="language-abap">&quot; AMDP that can be consumed by CDS Views
+METHOD get_data 
+  BY DATABASE FUNCTION FOR HDB
+  LANGUAGE SQLSCRIPT
+  OPTIONS READ-ONLY
+  USING mara.
+
+  RETURN SELECT matnr, mtart FROM mara;
+ENDMETHOD.
+</code></pre>
+<hr>
+<h2>Q40. What is Code Pushdown? Give examples of how to optimize ABAP for HANA.</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Code Pushdown</strong> means moving data-intensive operations from the ABAP application server to the HANA database, where they can be executed orders of magnitude faster.</p>
+<h3>Anti-Pattern 1: SELECT * with Application-Level Filtering</h3>
+<pre><code class="language-abap">&quot; ❌ BAD — Fetches ALL columns, ALL rows, filters in ABAP
+SELECT * FROM mara INTO TABLE lt_mara.
+LOOP AT lt_mara INTO ls_mara WHERE mtart = 'FERT'.
+  &quot; Process only finished goods
+ENDLOOP.
+
+&quot; ✅ GOOD — Filter at database, select only needed columns
+SELECT matnr, mtart, matkl
+  FROM mara
+  INTO TABLE @DATA(lt_mara)
+  WHERE mtart = 'FERT'.
+</code></pre>
+<h3>Anti-Pattern 2: Nested SELECT (SELECT inside LOOP)</h3>
+<pre><code class="language-abap">&quot; ❌ BAD — N+1 query problem
+SELECT * FROM ekko INTO TABLE lt_ekko WHERE bukrs = '1000'.
+LOOP AT lt_ekko INTO ls_ekko.
+  SELECT * FROM ekpo INTO TABLE lt_ekpo WHERE ebeln = ls_ekko-ebeln.
+  &quot; Process items...
+ENDLOOP.
+
+&quot; ✅ GOOD — Single JOIN query
+SELECT h~ebeln, h~bukrs, h~lifnr,
+       i~ebelp, i~matnr, i~menge, i~netpr
+  FROM ekko AS h
+  INNER JOIN ekpo AS i ON h~ebeln = i~ebeln
+  INTO TABLE @DATA(lt_po_data)
+  WHERE h~bukrs = '1000'.
+</code></pre>
+<h3>Anti-Pattern 3: Sorting in ABAP</h3>
+<pre><code class="language-abap">&quot; ❌ BAD — Sort in application layer
+SELECT * FROM bseg INTO TABLE lt_bseg WHERE bukrs = '1000'.
+SORT lt_bseg BY belnr augdt.
+
+&quot; ✅ GOOD — Sort in database (ORDER BY)
+SELECT * FROM bseg 
+  INTO TABLE @DATA(lt_bseg)
+  WHERE bukrs = '1000'
+  ORDER BY belnr, augdt.
+</code></pre>
+<h3>Anti-Pattern 4: Aggregation in ABAP loops</h3>
+<pre><code class="language-abap">&quot; ❌ BAD — Sum in ABAP loop
+SELECT * FROM bseg INTO TABLE lt_bseg WHERE bukrs = '1000'.
+LOOP AT lt_bseg INTO ls_bseg.
+  lv_total = lv_total + ls_bseg-dmbtr.
+ENDLOOP.
+
+&quot; ✅ GOOD — Aggregate in database
+SELECT SUM( dmbtr ) AS total
+  FROM bseg
+  INTO @DATA(lv_total)
+  WHERE bukrs = '1000'.
+</code></pre>
+<h3>Anti-Pattern 5: Using FOR ALL ENTRIES inefficiently</h3>
+<pre><code class="language-abap">&quot; ❌ BAD — FOR ALL ENTRIES on a large table without checking if it's empty
+SELECT * FROM ekpo INTO TABLE lt_ekpo
+  FOR ALL ENTRIES IN lt_ekko
+  WHERE ebeln = lt_ekko-ebeln.
+
+&quot; ✅ GOOD — Check if driver table is not empty + use JOINs when possible
+IF lt_ekko IS NOT INITIAL.
+  SELECT * FROM ekpo INTO TABLE @DATA(lt_ekpo)
+    FOR ALL ENTRIES IN @lt_ekko
+    WHERE ebeln = @lt_ekko-ebeln.
+ENDIF.
+
+&quot; ✅ BETTER — Use JOIN instead of FOR ALL ENTRIES
+SELECT e~ebeln, e~ebelp, e~matnr
+  FROM ekpo AS e
+  INNER JOIN ekko AS h ON e~ebeln = h~ebeln
+  INTO TABLE @DATA(lt_ekpo)
+  WHERE h~bukrs = '1000'.
+</code></pre>
+<h3>Summary: Code Pushdown Rules</h3>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Select only the columns you need (no <code>SELECT *</code>)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Filter at the database level (<code>WHERE</code>, not ABAP <code>IF</code>)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Use JOINs instead of nested SELECTs</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Use aggregate functions (<code>SUM</code>, <code>COUNT</code>, <code>AVG</code>) in SQL</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Use <code>ORDER BY</code> instead of ABAP <code>SORT</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Use <code>CASE</code>/<code>COALESCE</code> expressions in SQL</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Use CDS Views for complex data models</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Use AMDP for complex algorithms</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Avoid <code>SELECT *</code> — specify exact fields</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Check internal table before <code>FOR ALL ENTRIES</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q41. What is Eclipse ADT? Why is it used for HANA development?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Eclipse ADT</strong> (ABAP Development Tools) is the modern IDE for SAP ABAP development, built on the Eclipse platform. It is <strong>mandatory</strong> for certain HANA-specific features.</p>
+<h3>Why Eclipse ADT over SAP GUI (SE80)?</h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>SAP GUI (SE80)</th>
+<th>Eclipse ADT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CDS Views</strong></td>
+<td>Cannot create</td>
+<td>Full support</td>
+</tr>
+<tr>
+<td><strong>AMDP</strong></td>
+<td>Cannot create</td>
+<td>Full support</td>
+</tr>
+<tr>
+<td><strong>Code Completion</strong></td>
+<td>Basic</td>
+<td>Advanced (IntelliSense-like)</td>
+</tr>
+<tr>
+<td><strong>Refactoring</strong></td>
+<td>None</td>
+<td>Extract method, rename, etc.</td>
+</tr>
+<tr>
+<td><strong>Quick Fix</strong></td>
+<td>None</td>
+<td>Auto-fix suggestions</td>
+</tr>
+<tr>
+<td><strong>Search</strong></td>
+<td>Limited</td>
+<td>Global search, Where-Used</td>
+</tr>
+<tr>
+<td><strong>Debugging</strong></td>
+<td>ABAP Debugger</td>
+<td>ABAP Debugger + HANA SQL debugging</td>
+</tr>
+<tr>
+<td><strong>Transport</strong></td>
+<td>Works</td>
+<td>Works</td>
+</tr>
+<tr>
+<td><strong>Multiple Systems</strong></td>
+<td>One at a time</td>
+<td>Multiple projects simultaneously</td>
+</tr>
+<tr>
+<td><strong>Code Templates</strong></td>
+<td>None</td>
+<td>Custom templates</td>
+</tr>
+<tr>
+<td><strong>Syntax Check</strong></td>
+<td>On activation</td>
+<td>Real-time as you type</td>
+</tr>
+</tbody>
+</table>
+<h3>Eclipse ADT Key Features</h3>
+<ol>
+<li><strong>ABAP Project</strong> — Connect to SAP systems</li>
+<li><strong>CDS Editor</strong> — Create and edit CDS Views with syntax highlighting</li>
+<li><strong>AMDP Editor</strong> — Write SQLScript inside ABAP methods</li>
+<li><strong>Data Preview</strong> — Execute CDS Views and see results directly</li>
+<li><strong>SQL Console</strong> — Run Open SQL queries interactively</li>
+<li><strong>ATC (ABAP Test Cockpit)</strong> — Code quality checks</li>
+<li><strong>Unit Testing</strong> — ABAP Unit integration</li>
+<li><strong>Transport Organizer</strong> — Manage transports</li>
+</ol>
+<hr>
+<h2>Q42. What are the new Open SQL features in ABAP 7.40+ for HANA?</h2>
+<p><strong>Answer:</strong></p>
+<p>ABAP 7.40 and later versions introduced significant enhancements to Open SQL to support HANA optimization:</p>
+<h3>1. Inline Declarations</h3>
+<pre><code class="language-abap">&quot; Before 7.40
+DATA lt_mara TYPE TABLE OF mara.
+SELECT * FROM mara INTO TABLE lt_mara.
+
+&quot; After 7.40 — inline declaration with @DATA
+SELECT * FROM mara INTO TABLE @DATA(lt_mara).
+</code></pre>
+<h3>2. Expressions in SELECT</h3>
+<pre><code class="language-abap">&quot; String concatenation
+SELECT CONCAT( name1, name2 ) AS full_name FROM kna1 INTO TABLE @DATA(lt).
+
+&quot; Arithmetic
+SELECT ebeln, netpr * menge AS total FROM ekpo INTO TABLE @DATA(lt).
+
+&quot; CASE expression
+SELECT matnr,
+       CASE mtart WHEN 'FERT' THEN 'Finished' ELSE 'Other' END AS type_text
+  FROM mara INTO TABLE @DATA(lt).
+
+&quot; COALESCE (first non-null value)
+SELECT COALESCE( name2, name1 ) AS name FROM kna1 INTO TABLE @DATA(lt).
+
+&quot; SUBSTRING
+SELECT SUBSTRING( matnr, 1, 5 ) AS short_matnr FROM mara INTO TABLE @DATA(lt).
+
+&quot; CAST (type conversion)
+SELECT CAST( menge AS DEC( 15, 2 ) ) AS quantity FROM ekpo INTO TABLE @DATA(lt).
+</code></pre>
+<h3>3. New JOIN Types</h3>
+<pre><code class="language-abap">&quot; LEFT OUTER JOIN (previously only INNER JOIN was common)
+SELECT a~matnr, b~maktx
+  FROM mara AS a
+  LEFT OUTER JOIN makt AS b ON a~matnr = b~matnr AND b~spras = 'E'
+  INTO TABLE @DATA(lt).
+
+&quot; CROSS JOIN
+SELECT a~matnr, b~werks
+  FROM mara AS a
+  CROSS JOIN t001w AS b
+  INTO TABLE @DATA(lt).
+</code></pre>
+<h3>4. Common Table Expressions (CTE) — WITH clause</h3>
+<pre><code class="language-abap">&quot; CTE for complex queries
+WITH
+  +materials AS (
+    SELECT matnr, mtart FROM mara WHERE mtart = 'FERT'
+  ),
+  +stock AS (
+    SELECT matnr, SUM( labst ) AS total_stock
+    FROM mard
+    GROUP BY matnr
+  )
+SELECT m~matnr, m~mtart, s~total_stock
+  FROM +materials AS m
+  LEFT OUTER JOIN +stock AS s ON m~matnr = s~matnr
+  INTO TABLE @DATA(lt_result).
+</code></pre>
+<h3>5. UNION and UNION ALL</h3>
+<pre><code class="language-abap">SELECT matnr, 'MARA' AS source FROM mara
+UNION
+SELECT matnr, 'MARC' AS source FROM marc
+INTO TABLE @DATA(lt_combined).
+</code></pre>
+<h3>6. Window Functions (ABAP 7.50+)</h3>
+<pre><code class="language-abap">&quot; Not directly in Open SQL, but available through CDS Views
+&quot; ROW_NUMBER(), RANK(), DENSE_RANK(), SUM() OVER()
+</code></pre>
+<hr>
+<h2>Q43. What is the ABAP SQL Monitor (SQLM) and how do you use it for performance analysis?</h2>
+<p><strong>Answer:</strong></p>
+<p>The <strong>SQL Monitor</strong> (Transaction <code>SQLM</code>) collects runtime statistics about SQL statements executed in the system.</p>
+<p><strong>Key metrics collected:</strong></p>
+<ul>
+<li>Execution count</li>
+<li>Total runtime</li>
+<li>Rows read vs. rows transferred</li>
+<li>Buffer hits vs. database reads</li>
+</ul>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Activate the SQL Monitor via <code>SQLM</code></li>
+<li>Run the program you want to analyze</li>
+<li>Check results in <code>SQLM</code> — look for:
+<ul>
+<li>Statements with high execution count (inside loops?)</li>
+<li>Statements reading many more rows than transferred (missing WHERE?)</li>
+<li>Statements with high runtime</li>
+</ul>
+</li>
+</ol>
+<p><strong>Other Performance Tools:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Transaction</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SQL Trace</td>
+<td><code>ST05</code></td>
+<td>Detailed SQL execution trace</td>
+</tr>
+<tr>
+<td>Runtime Analysis</td>
+<td><code>SAT</code></td>
+<td>Program runtime profiling</td>
+</tr>
+<tr>
+<td>Code Inspector</td>
+<td><code>SCI</code></td>
+<td>Static code analysis</td>
+</tr>
+<tr>
+<td>ABAP Test Cockpit</td>
+<td><code>ATC</code></td>
+<td>Code quality and performance checks</td>
+</tr>
+<tr>
+<td>HANA SQL Analyzer</td>
+<td>Eclipse</td>
+<td>HANA-specific execution plan analysis</td>
+</tr>
+<tr>
+<td>Explain Plan</td>
+<td>Eclipse</td>
+<td>View HANA execution plan for a query</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q44. What is the difference between CDS Views and ABAP Dictionary Views?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>ABAP Dictionary View</th>
+<th>CDS View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Created in</strong></td>
+<td>SE11</td>
+<td>Eclipse ADT</td>
+</tr>
+<tr>
+<td><strong>Language</strong></td>
+<td>GUI-based</td>
+<td>DDL (Data Definition Language)</td>
+</tr>
+<tr>
+<td><strong>Associations</strong></td>
+<td>Not supported</td>
+<td>Full support</td>
+</tr>
+<tr>
+<td><strong>Annotations</strong></td>
+<td>Not supported</td>
+<td>Full support (UI, Analytics, OData)</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td>Not supported</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td><strong>Expressions</strong></td>
+<td>Very limited</td>
+<td>Full SQL expressions</td>
+</tr>
+<tr>
+<td><strong>Extensions</strong></td>
+<td>Append structures</td>
+<td>CDS View Extensions</td>
+</tr>
+<tr>
+<td><strong>Access Control</strong></td>
+<td>Not supported</td>
+<td>DCL (Data Control Language)</td>
+</tr>
+<tr>
+<td><strong>Fiori Integration</strong></td>
+<td>Manual</td>
+<td>Automatic via annotations</td>
+</tr>
+<tr>
+<td><strong>HANA Optimization</strong></td>
+<td>Limited</td>
+<td>Fully optimized</td>
+</tr>
+<tr>
+<td><strong>Used in S/4HANA?</strong></td>
+<td>Legacy</td>
+<td>Primary data model</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!IMPORTANT]
+In SAP S/4HANA, <strong>CDS Views are the standard</strong>. All new development should use CDS Views, not ABAP Dictionary views.</p>
+</blockquote>
+<hr>
+<h2>Q45. What is Access Control in CDS Views (DCL)?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>DCL (Data Control Language)</strong> defines <strong>authorization checks</strong> on CDS Views. It controls which data a user can see based on their authorizations.</p>
+<pre><code class="language-abap">@EndUserText.label: 'Access Control for Materials'
+@MappingRole: true
+
+define role Z_I_Material_Auth {
+  grant select on Z_I_Material
+    where (MaterialType) = aspect pfcg_auth(M_MATE_MAR, MTART, ACTVT='03')
+      and (Plant) = aspect pfcg_auth(M_MATE_WRK, WERKS, ACTVT='03');
+}
+</code></pre>
+<p>This ensures that users can only see materials where they have authorization for the material type and plant.</p>
+<hr>
+<h2>Q46. Explain the concept of Compatibility Views and Replacement Objects in S/4HANA.</h2>
+<p><strong>Answer:</strong></p>
+<p>During S/4HANA migration, SAP <strong>simplified the data model</strong> by removing redundant tables:</p>
+<ul>
+<li>
+<p><strong>Compatibility Views:</strong> SAP provides views that look like the old tables but read from the new simplified tables. This ensures old custom code still works.</p>
+<ul>
+<li>Example: <code>BSEG</code> (line items) → Now stored in <code>ACDOCA</code> (Universal Journal)</li>
+<li>The compatibility view <code>BSEG</code> still exists but reads from <code>ACDOCA</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Replacement Objects:</strong> New CDS Views that replace old tables/views</p>
+<ul>
+<li>Example: <code>MATDOC</code> replaces <code>MSEG</code> + <code>MKPF</code></li>
+<li><code>I_JournalEntry</code> replaces <code>BKPF</code>/<code>BSEG</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>Key Simplifications:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Old (ECC)</th>
+<th>New (S/4HANA)</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BSEG, BSIS, BSAS, BSIK, etc.</td>
+<td>ACDOCA</td>
+<td>Single source of truth</td>
+</tr>
+<tr>
+<td>MSEG + MKPF</td>
+<td>MATDOC</td>
+<td>Combined in one table</td>
+</tr>
+<tr>
+<td>MBEW (material valuation)</td>
+<td>ACDOCA</td>
+<td>Part of universal journal</td>
+</tr>
+<tr>
+<td>Customer (KNA1) + Vendor (LFA1)</td>
+<td>Business Partner (BUT000)</td>
+<td>Unified</td>
+</tr>
+<tr>
+<td>KONV (conditions)</td>
+<td>PRCD_ELEMENTS</td>
+<td>New pricing</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q47. What is the ABAP RESTful Application Programming Model (RAP)?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>RAP</strong> is the <strong>latest programming model</strong> for building SAP Fiori applications and OData services in SAP S/4HANA and SAP BTP ABAP Environment.</p>
+<p><strong>RAP Architecture:</strong></p>
+<pre><code>┌─────────────────────────────┐
+│  SAP Fiori UI (SAPUI5)      │  ← Presentation Layer
+└──────────┬──────────────────┘
+           │ OData V2/V4
+┌──────────▼──────────────────┐
+│  Service Binding            │  ← Service Layer (Exposure)
+│  Service Definition         │
+└──────────┬──────────────────┘
+           │
+┌──────────▼──────────────────┐
+│  Behavior Definition (BDEF) │  ← Business Logic Layer
+│  Behavior Implementation    │
+│  (ABAP Classes)             │
+└──────────┬──────────────────┘
+           │
+┌──────────▼──────────────────┐
+│  CDS View Entities          │  ← Data Model Layer
+│  (with associations)        │
+└──────────┬──────────────────┘
+           │
+┌──────────▼──────────────────┐
+│  Database Tables            │  ← Persistence Layer
+└─────────────────────────────┘
+</code></pre>
+<p><strong>RAP Key Concepts:</strong></p>
+<ul>
+<li><strong>CDS View Entities:</strong> Define the data model</li>
+<li><strong>Behavior Definition (BDEF):</strong> Defines CRUD operations, validations, determinations, actions</li>
+<li><strong>Behavior Implementation:</strong> ABAP class implementing the behavior</li>
+<li><strong>Service Definition:</strong> Defines which CDS entities are exposed</li>
+<li><strong>Service Binding:</strong> Binds the service to a protocol (OData V2/V4)</li>
+</ul>
+<blockquote>
+<p>[!TIP]
+If asked about RAP in the interview, mention that you're aware of it as the modern programming model and are eager to learn it. At the 0-2 year experience level, deep RAP knowledge is not expected but awareness is a strong plus.</p>
+</blockquote>
+<hr>
+<h1>PART 7 — Advanced ABAP Concepts</h1>
+<hr>
+<h2>Q48. What are User Exits, Customer Exits, BADIs, and Enhancement Points?</h2>
+<p><strong>Answer:</strong></p>
+<p>These are mechanisms to <strong>extend or modify standard SAP behavior</strong> without modifying SAP source code.</p>
+<h3>1. User Exits (Oldest — Obsolete)</h3>
+<ul>
+<li>Empty subroutines in SAP standard code</li>
+<li>Found in SD module (VOFM)</li>
+<li>Example: <code>USEREXIT_PRICING_PREPARE_TKOMK</code></li>
+</ul>
+<h3>2. Customer Exits</h3>
+<ul>
+<li>Pre-defined exit points with <code>CALL CUSTOMER-FUNCTION</code> in SAP code</li>
+<li>Three types:
+<ul>
+<li><strong>Function Module Exits</strong> (CMOD/SMOD): Implement logic in function modules</li>
+<li><strong>Screen Exits:</strong> Add custom subscreens</li>
+<li><strong>Menu Exits:</strong> Add custom menu items</li>
+</ul>
+</li>
+<li>Transaction: <code>SMOD</code> (find exits), <code>CMOD</code> (create projects)</li>
+</ul>
+<h3>3. BADIs (Business Add-Ins)</h3>
+<ul>
+<li>Object-oriented enhancement technique</li>
+<li>Define an interface → Implement a class</li>
+</ul>
+<p><strong>Classic BADI:</strong></p>
+<ul>
+<li>Transaction: <code>SE18</code> (define), <code>SE19</code> (implement)</li>
+<li>Can be multiple-use (multiple implementations)</li>
+</ul>
+<p><strong>New BADI (Enhancement Spot):</strong></p>
+<ul>
+<li>Fallback class concept</li>
+<li>Filter-based execution</li>
+<li>Transaction: <code>SE18</code> → Enhancement Spot → BADI</li>
+</ul>
+<h3>4. Enhancement Points / Sections (Most Modern)</h3>
+<pre><code class="language-abap">&quot; Implicit Enhancement Points — exist at every include's start/end
+&quot; Explicit Enhancement Points — SAP-defined
+&quot; Enhancement Sections — Replaceable code blocks
+
+&quot; Implicit Enhancement (available everywhere):
+ENHANCEMENT 1 Z_MY_ENHANCEMENT.
+  &quot; Custom code here
+ENDENHANCEMENT.
+</code></pre>
+<h3>How to find the right enhancement:</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debug the standard transaction</td>
+<td>Set breakpoints, find where to add logic</td>
+</tr>
+<tr>
+<td>Search for <code>CALL CUSTOMER-FUNCTION</code></td>
+<td>In the standard code</td>
+</tr>
+<tr>
+<td>Use <code>SE18</code> to find BADIs</td>
+<td>Search by package or application component</td>
+</tr>
+<tr>
+<td>Use <code>CL_EXITHANDLER</code> debugging</td>
+<td>Set breakpoint in <code>GET_INSTANCE</code> method</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q49. What is an IDoc?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>IDoc</strong> stands for <strong>Intermediate Document</strong>. It is a standard SAP data structure for <strong>electronic data interchange (EDI)</strong> between SAP systems or between SAP and external systems.</p>
+<p><strong>IDoc Structure:</strong></p>
+<pre><code>┌─────────────────┐
+│  CONTROL RECORD  │  ← Direction, message type, partner, status
+│  (EDIDC)         │
+├─────────────────┤
+│  DATA RECORDS    │  ← Actual business data (segments)
+│  (EDID4)         │  ← Hierarchical segment structure
+├─────────────────┤
+│  STATUS RECORDS  │  ← Processing status history
+│  (EDIDS)         │
+└─────────────────┘
+</code></pre>
+<p><strong>Key IDoc Terms:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Message Type</strong></td>
+<td>What business process</td>
+<td><code>MATMAS</code> (Material Master)</td>
+</tr>
+<tr>
+<td><strong>IDoc Type</strong></td>
+<td>Structure definition</td>
+<td><code>MATMAS05</code></td>
+</tr>
+<tr>
+<td><strong>Segment</strong></td>
+<td>Data group within IDoc</td>
+<td><code>E1MARAM</code> (Material header)</td>
+</tr>
+<tr>
+<td><strong>Partner Profile</strong></td>
+<td>Sender/Receiver config</td>
+<td><code>WE20</code></td>
+</tr>
+<tr>
+<td><strong>Port</strong></td>
+<td>Communication channel</td>
+<td><code>WE21</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key T-Codes:</strong></p>
+<table>
+<thead>
+<tr>
+<th>T-Code</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>WE02/WE05</code></td>
+<td>IDoc List</td>
+</tr>
+<tr>
+<td><code>WE19</code></td>
+<td>Test IDoc processing</td>
+</tr>
+<tr>
+<td><code>WE20</code></td>
+<td>Partner Profiles</td>
+</tr>
+<tr>
+<td><code>WE21</code></td>
+<td>Ports</td>
+</tr>
+<tr>
+<td><code>BD87</code></td>
+<td>Status Monitor</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q50. What is BDC (Batch Data Communication)?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>BDC</strong> is a technique for <strong>automating data entry</strong> into SAP by simulating user transactions programmatically. It records the screens and fields a user would normally fill in.</p>
+<h3>BDC Methods</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+<th>Speed</th>
+<th>Error Handling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Call Transaction</strong></td>
+<td>Processes one transaction at a time</td>
+<td>Fast</td>
+<td>Inline (immediate)</td>
+</tr>
+<tr>
+<td><strong>Session Method</strong></td>
+<td>Creates a batch input session processed later</td>
+<td>Slower</td>
+<td>Session-based (SM35)</td>
+</tr>
+</tbody>
+</table>
+<h3>BDC Recording</h3>
+<p>Use <code>SHDB</code> to record a transaction and generate ABAP code:</p>
+<ol>
+<li>Enter the transaction code</li>
+<li>Perform the steps manually</li>
+<li>SHDB records all screens and field values</li>
+<li>Generate ABAP program from the recording</li>
+</ol>
+<h3>BDC Code Example (Call Transaction Method)</h3>
+<pre><code class="language-abap">DATA: lt_bdcdata TYPE TABLE OF bdcdata,
+      lt_messages TYPE TABLE OF bdcmsgcoll.
+
+&quot; Fill BDC data (screen, field, value)
+PERFORM bdc_dynpro USING 'SAPMM01' '0100'.     &quot; Screen
+PERFORM bdc_field  USING 'BDC_OKCODE' '/00'.     &quot; OK Code
+PERFORM bdc_field  USING 'RMMG1-MATNR' '100'.   &quot; Material Number
+PERFORM bdc_field  USING 'RMMG1-MBRSH' 'M'.     &quot; Industry Sector
+
+CALL TRANSACTION 'MM01' 
+  USING lt_bdcdata
+  MODE 'N'              &quot; N=No display, A=All screens, E=Errors only
+  UPDATE 'S'            &quot; S=Synchronous, A=Asynchronous
+  MESSAGES INTO lt_messages.
+</code></pre>
+<hr>
+<h2>Q51. What is the difference between CALL TRANSACTION and SESSION method?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Call Transaction</th>
+<th>Session Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Processing</strong></td>
+<td>Immediate (synchronous)</td>
+<td>Batch (asynchronous via SM35)</td>
+</tr>
+<tr>
+<td><strong>Speed</strong></td>
+<td>Faster</td>
+<td>Slower</td>
+</tr>
+<tr>
+<td><strong>Error Handling</strong></td>
+<td>Programmatic (MESSAGES INTO)</td>
+<td>Session log in SM35</td>
+</tr>
+<tr>
+<td><strong>Screen Display</strong></td>
+<td>Mode A/N/E</td>
+<td>Always visible in SM35</td>
+</tr>
+<tr>
+<td><strong>Commit</strong></td>
+<td>Per transaction</td>
+<td>Per session</td>
+</tr>
+<tr>
+<td><strong>Use Case</strong></td>
+<td>Online processing</td>
+<td>Large data loads</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q52. What are Smart Forms and SAPscript?</h2>
+<p><strong>Answer:</strong></p>
+<p>Both are <strong>output technologies</strong> for generating printed/digital documents (invoices, purchase orders, delivery notes).</p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>SAPscript</th>
+<th>Smart Forms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T-Code</strong></td>
+<td>SE71</td>
+<td>SMARTFORMS</td>
+</tr>
+<tr>
+<td><strong>Technology</strong></td>
+<td>Older, text-based</td>
+<td>Newer, graphical</td>
+</tr>
+<tr>
+<td><strong>Multiple Pages</strong></td>
+<td>Manual handling</td>
+<td>Built-in page navigation</td>
+</tr>
+<tr>
+<td><strong>Tables</strong></td>
+<td>Difficult</td>
+<td>Easy (table nodes)</td>
+</tr>
+<tr>
+<td><strong>Output</strong></td>
+<td>Print only</td>
+<td>Print, PDF, Email, Fax</td>
+</tr>
+<tr>
+<td><strong>Generated</strong></td>
+<td>N/A</td>
+<td>Generates a function module</td>
+</tr>
+<tr>
+<td><strong>Transport</strong></td>
+<td>Object-based</td>
+<td>Object-based</td>
+</tr>
+<tr>
+<td><strong>Maintenance</strong></td>
+<td>Difficult</td>
+<td>Easier, drag-and-drop</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+In S/4HANA, <strong>Adobe Forms</strong> and <strong>SAP Forms Service by Adobe</strong> are the modern alternatives. But Smart Forms knowledge is still expected.</p>
+</blockquote>
+<hr>
+<h1>PART 8 — SAP Fiori &amp; UI5 (Good to Have)</h1>
+<hr>
+<h2>Q53. What is SAP Fiori?</h2>
+<p><strong>Answer:</strong></p>
+<p>SAP Fiori is SAP's <strong>modern user experience (UX) design approach</strong> and a set of applications that follow specific design principles for a consumer-grade experience.</p>
+<p><strong>Fiori Design Principles (Remember these!):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Role-based</strong></td>
+<td>Apps tailored to specific user roles</td>
+</tr>
+<tr>
+<td><strong>Responsive</strong></td>
+<td>Works on desktop, tablet, mobile</td>
+</tr>
+<tr>
+<td><strong>Simple</strong></td>
+<td>Focused on key tasks, minimal clicks</td>
+</tr>
+<tr>
+<td><strong>Coherent</strong></td>
+<td>Consistent look and feel across apps</td>
+</tr>
+<tr>
+<td><strong>Delightful</strong></td>
+<td>Pleasant, intuitive experience</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fiori App Types:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Technology</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Transactional</strong></td>
+<td>SAPUI5 + OData</td>
+<td>Create, update, delete business objects</td>
+</tr>
+<tr>
+<td><strong>Analytical</strong></td>
+<td>Smart Business</td>
+<td>KPIs, charts, dashboards</td>
+</tr>
+<tr>
+<td><strong>Fact Sheet</strong></td>
+<td>SAPUI5</td>
+<td>Object page, contextual info</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fiori Architecture:</strong></p>
+<pre><code>Browser → SAP Fiori Launchpad → SAPUI5 App → OData Service → SAP Backend (ABAP)
+</code></pre>
+<hr>
+<h2>Q54. What is SAPUI5?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>SAPUI5</strong> (SAP UI Development Toolkit for HTML5) is a JavaScript framework for building enterprise web applications. It is the technology behind SAP Fiori applications.</p>
+<p><strong>Key characteristics:</strong></p>
+<ul>
+<li>Built on <strong>HTML5, CSS3, JavaScript</strong></li>
+<li>Follows <strong>MVC (Model-View-Controller)</strong> architecture</li>
+<li>Uses <strong>OData protocol</strong> for data communication</li>
+<li>Provides rich <strong>UI controls</strong> (tables, charts, forms, etc.)</li>
+<li><strong>OpenUI5</strong> is the open-source version</li>
+</ul>
+<p><strong>SAPUI5 MVC Structure:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>File</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Model</strong></td>
+<td><code>model/</code></td>
+<td>Data representation (JSON, OData, XML)</td>
+</tr>
+<tr>
+<td><strong>View</strong></td>
+<td><code>view/*.xml</code></td>
+<td>UI layout (XML views preferred)</td>
+</tr>
+<tr>
+<td><strong>Controller</strong></td>
+<td><code>controller/*.js</code></td>
+<td>Business logic, event handling</td>
+</tr>
+<tr>
+<td><strong>Component</strong></td>
+<td><code>Component.js</code></td>
+<td>Root component, metadata</td>
+</tr>
+<tr>
+<td><strong>Manifest</strong></td>
+<td><code>manifest.json</code></td>
+<td>App descriptor, routing, data sources</td>
+</tr>
+<tr>
+<td><strong>i18n</strong></td>
+<td><code>i18n/i18n.properties</code></td>
+<td>Translations</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q55. What is OData?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>OData</strong> (Open Data Protocol) is a REST-based protocol for building and consuming APIs. In SAP, it's the standard protocol connecting Fiori frontends to ABAP backends.</p>
+<p><strong>Key concepts:</strong></p>
+<ul>
+<li><strong>Entity:</strong> A data object (like a row) — e.g., <code>SalesOrder</code></li>
+<li><strong>EntitySet:</strong> A collection of entities — e.g., <code>SalesOrders</code></li>
+<li><strong>Navigation Property:</strong> Relationship between entities — e.g., <code>SalesOrder → Items</code></li>
+<li><strong>Operations:</strong> CRUD + Function Imports</li>
+</ul>
+<p><strong>OData Operations:</strong></p>
+<table>
+<thead>
+<tr>
+<th>HTTP Method</th>
+<th>OData Operation</th>
+<th>ABAP Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>Read</td>
+<td><code>GET_ENTITY</code> / <code>GET_ENTITYSET</code></td>
+</tr>
+<tr>
+<td>POST</td>
+<td>Create</td>
+<td><code>CREATE_ENTITY</code></td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>Update (full)</td>
+<td><code>UPDATE_ENTITY</code></td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>Update (partial)</td>
+<td><code>UPDATE_ENTITY</code></td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>Delete</td>
+<td><code>DELETE_ENTITY</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Creating OData Services in ABAP:</strong></p>
+<ol>
+<li><strong>SEGW</strong> — SAP Gateway Service Builder (classic approach)</li>
+<li><strong>CDS View with <code>@OData.publish: true</code></strong> — Auto-generated</li>
+<li><strong>RAP Service Binding</strong> — Modern approach</li>
+</ol>
+<hr>
+<h1>PART 9 — Database Management &amp; Data Modeling</h1>
+<hr>
+<h2>Q56. What is Normalization? Explain the Normal Forms.</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Normalization</strong> is the process of organizing database tables to reduce data redundancy and improve data integrity.</p>
+<table>
+<thead>
+<tr>
+<th>Normal Form</th>
+<th>Rule</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1NF</strong></td>
+<td>Atomic values (no repeating groups)</td>
+<td>No comma-separated values in a field</td>
+</tr>
+<tr>
+<td><strong>2NF</strong></td>
+<td>1NF + No partial dependency (all non-key columns depend on the FULL key)</td>
+<td>Split tables if column depends only on part of a composite key</td>
+</tr>
+<tr>
+<td><strong>3NF</strong></td>
+<td>2NF + No transitive dependency (non-key columns don't depend on other non-key columns)</td>
+<td>Move indirectly dependent columns to separate table</td>
+</tr>
+<tr>
+<td><strong>BCNF</strong></td>
+<td>Every determinant is a candidate key</td>
+<td>Stronger version of 3NF</td>
+</tr>
+</tbody>
+</table>
+<p><strong>In SAP HANA context:</strong></p>
+<ul>
+<li>S/4HANA tends toward <strong>denormalization</strong> because HANA's in-memory, column-based storage handles redundancy efficiently</li>
+<li>Example: <code>ACDOCA</code> (Universal Journal) combines data that was in 10+ tables in ECC</li>
+<li>The performance benefit of avoiding JOINs outweighs storage costs in HANA</li>
+</ul>
+<hr>
+<h2>Q57. What is the difference between Primary Key and Foreign Key?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Primary Key</th>
+<th>Foreign Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td>Uniquely identifies each row</td>
+<td>Establishes relationship between tables</td>
+</tr>
+<tr>
+<td><strong>Uniqueness</strong></td>
+<td>Must be unique</td>
+<td>Can have duplicates</td>
+</tr>
+<tr>
+<td><strong>NULL</strong></td>
+<td>Cannot be NULL</td>
+<td>Can be NULL</td>
+</tr>
+<tr>
+<td><strong>Count</strong></td>
+<td>One per table</td>
+<td>Multiple per table</td>
+</tr>
+<tr>
+<td><strong>SAP Example</strong></td>
+<td><code>MARA-MANDT + MARA-MATNR</code></td>
+<td><code>EKPO-MATNR</code> references <code>MARA-MATNR</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q58. What are HANA Information Views? (Calculation, Analytic, Attribute)</h2>
+<p><strong>Answer:</strong></p>
+<p>HANA native <strong>Information Views</strong> (also called modeling views) are created in HANA Studio:</p>
+<table>
+<thead>
+<tr>
+<th>View Type</th>
+<th>Purpose</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Attribute View</strong></td>
+<td>Master data (dimensions)</td>
+<td>Customer, Material</td>
+</tr>
+<tr>
+<td><strong>Analytic View</strong></td>
+<td>Star schema (fact + dimensions)</td>
+<td>Sales Analysis</td>
+</tr>
+<tr>
+<td><strong>Calculation View</strong></td>
+<td>Complex logic, unions, scripted</td>
+<td>Financial Report</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+In modern SAP development, <strong>CDS Views have largely replaced HANA Information Views</strong> for ABAP developers. HANA native views are used more by HANA administrators and data architects.</p>
+</blockquote>
+<hr>
+<h2>Q59. What is the difference between OLTP and OLAP?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>OLTP</th>
+<th>OLAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td>Transaction processing</td>
+<td>Analytical processing</td>
+</tr>
+<tr>
+<td><strong>Operations</strong></td>
+<td>INSERT, UPDATE, DELETE</td>
+<td>SELECT (complex queries)</td>
+</tr>
+<tr>
+<td><strong>Data</strong></td>
+<td>Current, operational</td>
+<td>Historical, aggregated</td>
+</tr>
+<tr>
+<td><strong>Users</strong></td>
+<td>Clerks, operators</td>
+<td>Analysts, managers</td>
+</tr>
+<tr>
+<td><strong>Queries</strong></td>
+<td>Simple, frequent</td>
+<td>Complex, ad-hoc</td>
+</tr>
+<tr>
+<td><strong>DB Design</strong></td>
+<td>Normalized (3NF)</td>
+<td>Denormalized (Star/Snowflake)</td>
+</tr>
+<tr>
+<td><strong>SAP Example</strong></td>
+<td>ECC/S/4HANA</td>
+<td>BW/4HANA, Embedded Analytics</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HANA's advantage:</strong> Combines OLTP + OLAP in a <strong>single system</strong>, eliminating the need for separate analytical databases.</p>
+<hr>
+<h1>PART 10 — Agile Development Methodology</h1>
+<hr>
+<h2>Q60. What is Agile Methodology?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Agile</strong> is an iterative approach to software development that emphasizes:</p>
+<ul>
+<li><strong>Individuals and interactions</strong> over processes and tools</li>
+<li><strong>Working software</strong> over comprehensive documentation</li>
+<li><strong>Customer collaboration</strong> over contract negotiation</li>
+<li><strong>Responding to change</strong> over following a plan</li>
+</ul>
+<h3>Agile vs Waterfall</h3>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Waterfall</th>
+<th>Agile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Approach</strong></td>
+<td>Sequential phases</td>
+<td>Iterative sprints</td>
+</tr>
+<tr>
+<td><strong>Requirements</strong></td>
+<td>Fixed upfront</td>
+<td>Evolving</td>
+</tr>
+<tr>
+<td><strong>Delivery</strong></td>
+<td>At the end</td>
+<td>Incremental</td>
+</tr>
+<tr>
+<td><strong>Feedback</strong></td>
+<td>Late</td>
+<td>Continuous</td>
+</tr>
+<tr>
+<td><strong>Flexibility</strong></td>
+<td>Low (changes are costly)</td>
+<td>High (changes welcome)</td>
+</tr>
+<tr>
+<td><strong>Testing</strong></td>
+<td>At the end</td>
+<td>Throughout</td>
+</tr>
+<tr>
+<td><strong>Documentation</strong></td>
+<td>Heavy</td>
+<td>Light (just enough)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q61. What is Scrum? Explain Scrum roles, events, and artifacts.</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Scrum</strong> is the most popular agile framework, used for managing complex product development.</p>
+<h3>Scrum Roles</h3>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Responsibilities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Product Owner</strong></td>
+<td>Defines requirements (user stories), prioritizes backlog, accepts deliverables</td>
+</tr>
+<tr>
+<td><strong>Scrum Master</strong></td>
+<td>Facilitates Scrum process, removes impediments, coaches team</td>
+</tr>
+<tr>
+<td><strong>Development Team</strong></td>
+<td>Self-organizing team that delivers the increment (3-9 members)</td>
+</tr>
+</tbody>
+</table>
+<h3>Scrum Events (Ceremonies)</h3>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Duration (2-week sprint)</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sprint Planning</strong></td>
+<td>2-4 hours</td>
+<td>Plan what to deliver in the sprint</td>
+</tr>
+<tr>
+<td><strong>Daily Standup</strong></td>
+<td>15 minutes</td>
+<td>Sync: What did I do? What will I do? Any blockers?</td>
+</tr>
+<tr>
+<td><strong>Sprint Review</strong></td>
+<td>1-2 hours</td>
+<td>Demo completed work to stakeholders</td>
+</tr>
+<tr>
+<td><strong>Sprint Retrospective</strong></td>
+<td>1-1.5 hours</td>
+<td>What went well? What to improve? Action items</td>
+</tr>
+</tbody>
+</table>
+<h3>Scrum Artifacts</h3>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Product Backlog</strong></td>
+<td>Ordered list of everything needed in the product</td>
+</tr>
+<tr>
+<td><strong>Sprint Backlog</strong></td>
+<td>Items selected for the current sprint + plan</td>
+</tr>
+<tr>
+<td><strong>Increment</strong></td>
+<td>The working product at the end of the sprint</td>
+</tr>
+<tr>
+<td><strong>User Story</strong></td>
+<td>A requirement from the user's perspective: &quot;As a [user], I want [feature], so that [benefit]&quot;</td>
+</tr>
+<tr>
+<td><strong>Story Points</strong></td>
+<td>Relative effort estimation (Fibonacci: 1, 2, 3, 5, 8, 13, 21)</td>
+</tr>
+<tr>
+<td><strong>Velocity</strong></td>
+<td>Average story points completed per sprint</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q62. What is a User Story? Give an example relevant to SAP.</h2>
+<p><strong>Answer:</strong></p>
+<p>A <strong>User Story</strong> follows the format:</p>
+<blockquote>
+<p><strong>&quot;As a [role], I want [feature], so that [benefit].&quot;</strong></p>
+</blockquote>
+<p><strong>SAP-related examples:</strong></p>
+<ol>
+<li>
+<p>&quot;As a <strong>purchasing manager</strong>, I want to <strong>view a report of all pending purchase orders</strong>, so that I can <strong>track procurement status and follow up with vendors</strong>.&quot;</p>
+</li>
+<li>
+<p>&quot;As a <strong>finance analyst</strong>, I want to <strong>run the General Ledger report filtered by cost center and date range</strong>, so that I can <strong>analyze departmental expenses</strong>.&quot;</p>
+</li>
+<li>
+<p>&quot;As a <strong>warehouse supervisor</strong>, I want to <strong>receive an alert when inventory falls below reorder level</strong>, so that I can <strong>trigger replenishment in time</strong>.&quot;</p>
+</li>
+</ol>
+<p><strong>Acceptance Criteria Example:</strong></p>
+<ul>
+<li>Report displays PO number, vendor, amount, status, and creation date</li>
+<li>User can filter by date range, vendor, and company code</li>
+<li>Report can be exported to Excel</li>
+<li>Response time should be under 5 seconds for 10,000 records</li>
+</ul>
+<hr>
+<h1>PART 11 — Version Control / Git</h1>
+<hr>
+<h2>Q63. What is Git? Why is it used?</h2>
+<p><strong>Answer:</strong></p>
+<p><strong>Git</strong> is a <strong>distributed version control system</strong> that tracks changes to files and coordinates work among multiple developers.</p>
+<p><strong>Key concepts:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Repository</strong></td>
+<td>A project folder tracked by Git</td>
+</tr>
+<tr>
+<td><strong>Commit</strong></td>
+<td>A snapshot of your changes</td>
+</tr>
+<tr>
+<td><strong>Branch</strong></td>
+<td>An independent line of development</td>
+</tr>
+<tr>
+<td><strong>Merge</strong></td>
+<td>Combining branches together</td>
+</tr>
+<tr>
+<td><strong>Clone</strong></td>
+<td>Copy a remote repository locally</td>
+</tr>
+<tr>
+<td><strong>Pull</strong></td>
+<td>Download + merge remote changes</td>
+</tr>
+<tr>
+<td><strong>Push</strong></td>
+<td>Upload local commits to remote</td>
+</tr>
+<tr>
+<td><strong>Staging Area</strong></td>
+<td>Intermediate area before committing</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Q64. What are the essential Git commands?</h2>
+<p><strong>Answer:</strong></p>
+<h3>Setup &amp; Configuration</h3>
+<pre><code class="language-bash">git init                          # Initialize a new repo
+git clone &lt;url&gt;                   # Clone a remote repo
+git config --global user.name &quot;Name&quot;
+git config --global user.email &quot;email&quot;
+</code></pre>
+<h3>Daily Workflow</h3>
+<pre><code class="language-bash">git status                        # Check current status
+git add &lt;file&gt;                    # Stage a specific file
+git add .                         # Stage all changes
+git commit -m &quot;message&quot;           # Commit staged changes
+git push origin &lt;branch&gt;          # Push to remote
+git pull origin &lt;branch&gt;          # Pull from remote
+</code></pre>
+<h3>Branching</h3>
+<pre><code class="language-bash">git branch                        # List branches
+git branch &lt;name&gt;                 # Create new branch
+git checkout &lt;branch&gt;             # Switch to branch
+git checkout -b &lt;name&gt;            # Create + switch
+git merge &lt;branch&gt;                # Merge branch into current
+git branch -d &lt;branch&gt;            # Delete branch
+</code></pre>
+<h3>History &amp; Comparison</h3>
+<pre><code class="language-bash">git log                           # View commit history
+git log --oneline                 # Compact view
+git diff                          # View unstaged changes
+git diff --staged                 # View staged changes
+</code></pre>
+<h3>Undoing Changes</h3>
+<pre><code class="language-bash">git reset HEAD &lt;file&gt;             # Unstage a file
+git checkout -- &lt;file&gt;            # Discard changes in file
+git revert &lt;commit-hash&gt;          # Revert a specific commit
+git stash                         # Temporarily save changes
+git stash pop                     # Restore stashed changes
+</code></pre>
+<hr>
+<h2>Q65. What is the difference between Git Merge and Git Rebase?</h2>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Merge</th>
+<th>Rebase</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>How</strong></td>
+<td>Creates a merge commit</td>
+<td>Replays commits on top of base</td>
+</tr>
+<tr>
+<td><strong>History</strong></td>
+<td>Preserves complete history (non-linear)</td>
+<td>Creates linear history</td>
+</tr>
+<tr>
+<td><strong>Safety</strong></td>
+<td>Safer (doesn't rewrite history)</td>
+<td>Can be risky on shared branches</td>
+</tr>
+<tr>
+<td><strong>Use Case</strong></td>
+<td>Merging feature into main</td>
+<td>Updating feature branch with main</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-bash"># Merge: creates a merge commit
+git checkout main
+git merge feature-branch
+
+# Rebase: replays feature commits on top of main
+git checkout feature-branch
+git rebase main
+</code></pre>
+<hr>
+<h2>Q66. How is Git used in SAP development?</h2>
+<p><strong>Answer:</strong></p>
+<ul>
+<li><strong>abapGit</strong> is an open-source Git client for ABAP</li>
+<li>It allows serializing ABAP objects (programs, classes, function modules, CDS Views) to files and pushing to Git repositories (GitHub, GitLab, Bitbucket)</li>
+<li>Enables modern development practices for ABAP:
+<ul>
+<li>Code review via pull requests</li>
+<li>CI/CD integration</li>
+<li>Backup and versioning</li>
+<li>Collaboration</li>
+</ul>
+</li>
+</ul>
+<p><strong>SAP's official tools:</strong></p>
+<ul>
+<li><strong>gCTS</strong> (Git-enabled Change and Transport System) — SAP's native Git integration for managing transports via Git</li>
+</ul>
+<hr>
+<h1>PART 12 — HR Round Questions</h1>
+<hr>
+<h2>Q67. What is your expected salary/CTC?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;I've done some research on the industry standards for this role and my experience level. Based on the market range and the responsibilities of this position, I'm looking for a compensation in the range of [X to Y LPA]. However, I'm flexible and open to discussion based on the overall package including benefits, learning opportunities, and growth path.&quot;</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+<strong>Research beforehand:</strong> Check Glassdoor, AmbitionBox, and LinkedIn for salary ranges for &quot;Custom Software Engineer&quot; or &quot;SAP ABAP Developer&quot; at the company. For freshers at Accenture, the typical range is 4.5–6.5 LPA depending on the role.</p>
+</blockquote>
+<hr>
+<h2>Q68. Are you willing to relocate to Bengaluru?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;Yes, absolutely. I'm fully open to relocating to Bengaluru. In fact, I see it as an exciting opportunity — Bengaluru is India's tech capital and being there would give me great exposure to the SAP ecosystem and networking opportunities. I'm ready to make the move as soon as required.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q69. Are you comfortable working in shifts or extended hours?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;Yes, I understand that in a consulting environment, there may be times when projects require extended hours or working across different time zones to support global clients. I'm flexible and committed to meeting project deadlines while maintaining quality.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q70. Do you have any other offers? Why should we select you?</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;I'm currently exploring a few opportunities, but this role is my top preference because of [company's] reputation in SAP consulting and the chance to work on cutting-edge HANA implementations.</p>
+<p>You should select me because:</p>
+<ol>
+<li>I have a solid foundation in SAP ABAP and a genuine passion for HANA development</li>
+<li>I'm a quick learner who can ramp up fast and contribute meaningfully</li>
+<li>I'm a team player who communicates well and takes ownership of my work</li>
+<li>I'm committed to continuous learning and growing with the organization&quot;</li>
+</ol>
+</blockquote>
+<hr>
+<h2>Q71. Tell me about a failure or mistake you made.</h2>
+<p><strong>Model Answer:</strong></p>
+<blockquote>
+<p>&quot;In one of my early projects, I wrote a report that worked perfectly in the development system but caused a performance issue in the production system because the data volume was much larger. The report had a nested SELECT inside a LOOP, which I didn't realize was inefficient.</p>
+<p>I learned the importance of testing with realistic data volumes and understanding the code pushdown approach for HANA. I immediately refactored the code to use JOINs and tested with production-equivalent data. Since then, I always consider performance implications during development, not just functionality.</p>
+<p>This experience was a turning point that made me a much better developer.&quot;</p>
+</blockquote>
+<hr>
+<h2>Q72. Do you have any questions for us?</h2>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>ALWAYS</strong> ask questions. Asking 2-3 thoughtful questions shows genuine interest.</p>
+</blockquote>
+<p><strong>Recommended Questions:</strong></p>
+<ol>
+<li>
+<p><strong>&quot;What does a typical day look like for someone in this role?&quot;</strong></p>
+<ul>
+<li>Shows interest in the actual work</li>
+</ul>
+</li>
+<li>
+<p><strong>&quot;What SAP S/4HANA projects is the team currently working on?&quot;</strong></p>
+<ul>
+<li>Shows technical curiosity</li>
+</ul>
+</li>
+<li>
+<p><strong>&quot;What learning and certification opportunities does the company provide for SAP technologies?&quot;</strong></p>
+<ul>
+<li>Shows commitment to growth</li>
+</ul>
+</li>
+<li>
+<p><strong>&quot;How is performance measured and what does the growth path look like for this role?&quot;</strong></p>
+<ul>
+<li>Shows ambition and long-term thinking</li>
+</ul>
+</li>
+<li>
+<p><strong>&quot;What is the team size and composition for the project I would be joining?&quot;</strong></p>
+<ul>
+<li>Shows interest in collaboration</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1>PART 13 — Quick Revision Cheat Sheet</h1>
+<hr>
+<h2>SAP ABAP Key Concepts — One-Liners</h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>One-Line Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SAP</td>
+<td>Enterprise Resource Planning software by SAP SE, Germany</td>
+</tr>
+<tr>
+<td>ABAP</td>
+<td>SAP's proprietary programming language for custom development</td>
+</tr>
+<tr>
+<td>HANA</td>
+<td>In-memory, column-oriented database by SAP</td>
+</tr>
+<tr>
+<td>S/4HANA</td>
+<td>SAP's latest ERP suite, runs exclusively on HANA</td>
+</tr>
+<tr>
+<td>CDS Views</td>
+<td>Declarative data models with annotations in Eclipse ADT</td>
+</tr>
+<tr>
+<td>AMDP</td>
+<td>SQLScript procedures managed within ABAP classes</td>
+</tr>
+<tr>
+<td>Code Pushdown</td>
+<td>Moving data processing from app server to HANA database</td>
+</tr>
+<tr>
+<td>Open SQL</td>
+<td>Database-independent SQL used in ABAP programs</td>
+</tr>
+<tr>
+<td>ALV</td>
+<td>ABAP List Viewer — professional report grid output</td>
+</tr>
+<tr>
+<td>Internal Table</td>
+<td>In-memory table structure (Standard/Sorted/Hashed)</td>
+</tr>
+<tr>
+<td>Function Module</td>
+<td>Reusable ABAP routine stored in a Function Group</td>
+</tr>
+<tr>
+<td>BAPI</td>
+<td>Standardized, RFC-enabled function module for business objects</td>
+</tr>
+<tr>
+<td>BDC</td>
+<td>Batch data communication — automates screen transactions</td>
+</tr>
+<tr>
+<td>IDoc</td>
+<td>Intermediate Document for EDI data exchange</td>
+</tr>
+<tr>
+<td>User Exit</td>
+<td>Enhancement technique — empty code blocks in standard SAP</td>
+</tr>
+<tr>
+<td>BADI</td>
+<td>Business Add-In — OOP-based enhancement technique</td>
+</tr>
+<tr>
+<td>Smart Form</td>
+<td>Form printing technology (generates function module)</td>
+</tr>
+<tr>
+<td>Transport</td>
+<td>Mechanism to move changes between SAP systems (Dev→QA→Prod)</td>
+</tr>
+<tr>
+<td>DDIC</td>
+<td>Data Dictionary — central repository for data definitions</td>
+</tr>
+<tr>
+<td>RFC</td>
+<td>Remote Function Call — communication between SAP systems</td>
+</tr>
+<tr>
+<td>OData</td>
+<td>REST-based protocol for Fiori ↔ ABAP communication</td>
+</tr>
+<tr>
+<td>Fiori</td>
+<td>SAP's modern UX framework — role-based, responsive, simple</td>
+</tr>
+<tr>
+<td>SAPUI5</td>
+<td>JavaScript framework for building Fiori apps (MVC pattern)</td>
+</tr>
+<tr>
+<td>RAP</td>
+<td>RESTful ABAP Programming — modern model for Fiori + OData</td>
+</tr>
+<tr>
+<td>Eclipse ADT</td>
+<td>Modern IDE for ABAP development (required for CDS/AMDP)</td>
+</tr>
+<tr>
+<td>abapGit</td>
+<td>Open-source Git client for ABAP</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Important Tables to Remember</h2>
+<table>
+<thead>
+<tr>
+<th>Table</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MARA</td>
+<td>Material Master (General)</td>
+</tr>
+<tr>
+<td>MAKT</td>
+<td>Material Descriptions</td>
+</tr>
+<tr>
+<td>MARC</td>
+<td>Material Plant Data</td>
+</tr>
+<tr>
+<td>MARD</td>
+<td>Material Storage Location Data</td>
+</tr>
+<tr>
+<td>KNA1</td>
+<td>Customer Master</td>
+</tr>
+<tr>
+<td>LFA1</td>
+<td>Vendor Master</td>
+</tr>
+<tr>
+<td>BKPF</td>
+<td>Accounting Document Header</td>
+</tr>
+<tr>
+<td>BSEG</td>
+<td>Accounting Document Line Items</td>
+</tr>
+<tr>
+<td>EKKO</td>
+<td>Purchase Order Header</td>
+</tr>
+<tr>
+<td>EKPO</td>
+<td>Purchase Order Items</td>
+</tr>
+<tr>
+<td>VBAK</td>
+<td>Sales Order Header</td>
+</tr>
+<tr>
+<td>VBAP</td>
+<td>Sales Order Items</td>
+</tr>
+<tr>
+<td>LIKP</td>
+<td>Delivery Header</td>
+</tr>
+<tr>
+<td>LIPS</td>
+<td>Delivery Items</td>
+</tr>
+<tr>
+<td>ACDOCA</td>
+<td>Universal Journal (S/4HANA)</td>
+</tr>
+<tr>
+<td>BUT000</td>
+<td>Business Partner (S/4HANA)</td>
+</tr>
+<tr>
+<td>T001</td>
+<td>Company Codes</td>
+</tr>
+<tr>
+<td>T001W</td>
+<td>Plants</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>System Variables (SY-* Fields)</h2>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SY-SUBRC</code></td>
+<td>Return code (0 = success)</td>
+</tr>
+<tr>
+<td><code>SY-TABIX</code></td>
+<td>Current internal table index</td>
+</tr>
+<tr>
+<td><code>SY-INDEX</code></td>
+<td>Loop counter (DO/WHILE)</td>
+</tr>
+<tr>
+<td><code>SY-DATUM</code></td>
+<td>Current date</td>
+</tr>
+<tr>
+<td><code>SY-UZEIT</code></td>
+<td>Current time</td>
+</tr>
+<tr>
+<td><code>SY-UNAME</code></td>
+<td>Current user</td>
+</tr>
+<tr>
+<td><code>SY-LANGU</code></td>
+<td>Current language</td>
+</tr>
+<tr>
+<td><code>SY-MANDT</code></td>
+<td>Current client</td>
+</tr>
+<tr>
+<td><code>SY-TCODE</code></td>
+<td>Current transaction code</td>
+</tr>
+<tr>
+<td><code>SY-DBCNT</code></td>
+<td>Number of DB rows processed</td>
+</tr>
+<tr>
+<td><code>SY-MSGTY</code></td>
+<td>Message type (E/W/I/S/A)</td>
+</tr>
+<tr>
+<td><code>SY-MSGNO</code></td>
+<td>Message number</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1>PART 14 — Interview Day Strategy &amp; Tips</h1>
+<hr>
+<h2>Before the Interview</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Research the company</strong> — website, recent news, SAP practice</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Review this guide</strong> — focus on Parts 6, 4, and 5 (HANA, Core ABAP, OOP)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Prepare your intro</strong> — practice out loud 3-4 times</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Prepare 2-3 projects</strong> — with STAR format</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Keep resume handy</strong> — know every line on it</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Test your setup</strong> — if virtual, check camera, mic, internet, lighting</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Dress professionally</strong> — business formal or business casual</td>
+</tr>
+</tbody>
+</table>
+<h2>During the Interview</h2>
+<table>
+<thead>
+<tr>
+<th>Do ✅</th>
+<th>Don't ❌</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maintain eye contact</td>
+<td>Don't look away or at your phone</td>
+</tr>
+<tr>
+<td>Listen fully before answering</td>
+<td>Don't interrupt</td>
+</tr>
+<tr>
+<td>Say &quot;I don't know, but I'd approach it by...&quot;</td>
+<td>Don't bluff or make up answers</td>
+</tr>
+<tr>
+<td>Ask clarifying questions</td>
+<td>Don't assume</td>
+</tr>
+<tr>
+<td>Show enthusiasm for learning</td>
+<td>Don't appear disinterested</td>
+</tr>
+<tr>
+<td>Use technical terms correctly</td>
+<td>Don't use jargon you can't explain</td>
+</tr>
+<tr>
+<td>Thank the interviewer at the end</td>
+<td>Don't forget to ask your questions</td>
+</tr>
+</tbody>
+</table>
+<h2>Handling Questions You Don't Know</h2>
+<blockquote>
+<p>[!TIP]
+<strong>Never say &quot;I don't know&quot; and stop.</strong> Instead, use one of these approaches:</p>
+</blockquote>
+<ol>
+<li>
+<p><strong>Relate to what you know:</strong> &quot;I haven't worked with that specific feature, but based on my understanding of [related concept], I would approach it by...&quot;</p>
+</li>
+<li>
+<p><strong>Be honest but positive:</strong> &quot;That's an area I'm still building expertise in. I've been reading about it and understand the basics — [explain what you know]. I'm eager to dive deeper into it.&quot;</p>
+</li>
+<li>
+<p><strong>Show problem-solving:</strong> &quot;I'm not sure of the exact answer, but my approach would be to [check documentation / debug / test / consult with the team].&quot;</p>
+</li>
+</ol>
+<hr>
+<h2>Study Priority Matrix</h2>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Topic</th>
+<th>Time to Spend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔴 <strong>Critical</strong></td>
+<td>SAP ABAP for HANA (CDS, AMDP, Code Pushdown)</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>🔴 <strong>Critical</strong></td>
+<td>Core ABAP (Internal Tables, SELECT, Modularization)</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>🟡 <strong>Important</strong></td>
+<td>ABAP OOP (Classes, Interfaces, Inheritance)</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>🟡 <strong>Important</strong></td>
+<td>Behavioral Questions + Self-Intro</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>🟢 <strong>Good to have</strong></td>
+<td>Fiori, OData, Agile, Git</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>🟢 <strong>Good to have</strong></td>
+<td>HR Round Prep</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p>[!CAUTION]</p>
+<h2>Final Checklist Before Interview Day</h2>
+<ul>
+<li>[ ] Can I explain &quot;Tell me about yourself&quot; fluently in under 2 minutes?</li>
+<li>[ ] Can I explain what CDS Views are and write basic syntax?</li>
+<li>[ ] Can I explain AMDP and when to use it vs CDS?</li>
+<li>[ ] Can I explain Code Pushdown with at least 3 anti-patterns?</li>
+<li>[ ] Can I explain Internal Table types and operations?</li>
+<li>[ ] Can I write a basic ABAP SELECT with JOINs and expressions?</li>
+<li>[ ] Can I explain OOP concepts (class, inheritance, interface)?</li>
+<li>[ ] Can I describe 2-3 projects using the STAR format?</li>
+<li>[ ] Do I have 3 questions ready to ask the interviewer?</li>
+<li>[ ] Am I prepared for salary negotiation?</li>
+</ul>
+</blockquote>
+<hr>
+<p><strong>🎯 You've got this. Prepare systematically, stay confident, and let your genuine interest in SAP ABAP shine through. Good luck!</strong></p>
