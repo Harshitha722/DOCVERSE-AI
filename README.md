@@ -2,7 +2,7 @@
 
 **"Create, Convert, Edit, and Enhance Documents with AI."**
 
-DocVerse AI is a modern, production-quality full-stack web application that acts as an all-in-one document platform. It allows users to upload documents, convert them between multiple formats, edit them using a rich text editor, and generate or summarize documents using the Gemini AI API.
+DocVerse AI is a full-stack web application that acts as an all-in-one document platform. It allows users to upload documents, convert them between multiple formats, edit them using a rich text editor, and generate or summarize documents.
 
 The application features a clean, premium UI with smooth animations, glassmorphism, and an intuitive workflow.
 
